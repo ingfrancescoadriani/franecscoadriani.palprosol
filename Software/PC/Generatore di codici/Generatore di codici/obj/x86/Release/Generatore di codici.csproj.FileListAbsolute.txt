@@ -1,0 +1,19 @@
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\bin\Release\Generatore di codici.exe.config
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\bin\Release\Generatore di codici.exe
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\bin\Release\Generatore di codici.pdb
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\bin\Release\Sintec.Tool.dll
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\bin\Release\Sintec.Tool.pdb
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Release\MainWindow.baml
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Release\WindowCheckCode.baml
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Release\MainWindow.g.cs
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Release\WindowCheckCode.g.cs
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Release\App.g.cs
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Release\Generatore di codici_MarkupCompile.cache
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Release\Generatore di codici.g.resources
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Release\Generatore_di_codici.Properties.Resources.resources
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Release\Generatore di codici.csproj.GenerateResource.Cache
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Release\Generatore di codici.exe
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Release\Generatore di codici.pdb
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Release\Generatore di codici.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Release\Generatore di codici.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Release\Generatore di codici.csproj.CopyComplete

@@ -1,0 +1,57 @@
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualConnectors.csprojResolveAssemblyReference.cache
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\ReGen.Util.FrmTmp.resources
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualConnectors.csproj.GenerateResource.Cache
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.dll
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.pdb
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualConnectors.csprojResolveAssemblyReference.cache
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\ReGen.Util.FrmTmp.resources
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualConnectors.csproj.GenerateResource.Cache
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.dll
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.pdb
+Y:\Sorgenti\Regen\ReGen - Manuale\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.dll
+Y:\Sorgenti\Regen\ReGen - Manuale\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.pdb
+Y:\Sorgenti\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\ReGen.Util.FrmTmp.resources
+Y:\Sorgenti\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualConnectors.csproj.GenerateResource.Cache
+Y:\Sorgenti\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.dll
+Y:\Sorgenti\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.pdb
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.dll
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.pdb
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.dll
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.pdb
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualConnectors.csprojResolveAssemblyReference.cache
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\VirtualCOnnectors\bin\Debug\Sintec.Tool.dll
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\VirtualCOnnectors\bin\Debug\Sintec.Tool.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.pdb
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.dll
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.pdb
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\VirtualCOnnectors\bin\Debug\Sintec.Tool.dll
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\VirtualCOnnectors\bin\Debug\Sintec.Tool.pdb
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\VirtualCOnnectors\obj\Debug\VirtualConnectors.csprojResolveAssemblyReference.cache
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.dll
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.pdb
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.dll
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.pdb
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\bin\Debug\Sintec.Tool.dll
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\bin\Debug\Sintec.Tool.pdb
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\obj\Debug\VirtualConnectors.csprojResolveAssemblyReference.cache
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.dll
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\bin\Debug\Sintec.Tool.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\bin\Debug\Sintec.Tool.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\obj\Debug\VirtualConnectors.csprojResolveAssemblyReference.cache
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.pdb
+Z:\Regen\Regen\ReGen\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.dll
+Z:\Regen\Regen\ReGen\VirtualCOnnectors\bin\Debug\VirtualCOnnectors.pdb
+Z:\Regen\Regen\ReGen\VirtualCOnnectors\bin\Debug\Sintec.Tool.dll
+Z:\Regen\Regen\ReGen\VirtualCOnnectors\bin\Debug\Sintec.Tool.pdb
+Z:\Regen\Regen\ReGen\VirtualCOnnectors\obj\Debug\VirtualConnectors.csprojResolveAssemblyReference.cache
+Z:\Regen\Regen\ReGen\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.dll
+Z:\Regen\Regen\ReGen\VirtualCOnnectors\obj\Debug\VirtualCOnnectors.pdb

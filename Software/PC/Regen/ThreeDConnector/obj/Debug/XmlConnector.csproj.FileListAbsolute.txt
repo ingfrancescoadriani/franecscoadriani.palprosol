@@ -1,0 +1,79 @@
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\bin\Debug\XmlConnector.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\bin\Debug\XmlConnector.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\obj\Debug\XmlConnector.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\obj\Debug\XmlConnector.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\obj\Debug\XmlConnector.csprojResolveAssemblyReference.cache
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\obj\Debug\XmlConnector.InterfacciaImpostazioni.resources
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\obj\Debug\XmlConnector.csproj.GenerateResource.Cache
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\XmlConnector\bin\Debug\XmlConnector.dll
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\XmlConnector\bin\Debug\XmlConnector.pdb
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.dll
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.pdb
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\XmlConnector\obj\Debug\XmlConnector.csprojResolveAssemblyReference.cache
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\XmlConnector\obj\Debug\XmlConnector.InterfacciaImpostazioni.resources
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\XmlConnector\obj\Debug\XmlConnector.csproj.GenerateResource.Cache
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\XmlConnector\obj\Debug\XmlConnector.dll
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\XmlConnector\obj\Debug\XmlConnector.pdb
+Y:\Sorgenti\Regen\XmlConnector\bin\Debug\XmlConnector.dll
+Y:\Sorgenti\Regen\XmlConnector\bin\Debug\XmlConnector.pdb
+Y:\Sorgenti\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.dll
+Y:\Sorgenti\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.pdb
+Y:\Sorgenti\Regen\XmlConnector\obj\Debug\XmlConnector.csprojResolveAssemblyReference.cache
+Y:\Sorgenti\Regen\XmlConnector\obj\Debug\XmlConnector.InterfacciaImpostazioni.resources
+Y:\Sorgenti\Regen\XmlConnector\obj\Debug\XmlConnector.csproj.GenerateResource.Cache
+Y:\Sorgenti\Regen\XmlConnector\obj\Debug\XmlConnector.dll
+Y:\Sorgenti\Regen\XmlConnector\obj\Debug\XmlConnector.pdb
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\XmlConnector\bin\Debug\XmlConnector.dll
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\XmlConnector\bin\Debug\XmlConnector.pdb
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.dll
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.pdb
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\XmlConnector\obj\Debug\XmlConnector.csprojResolveAssemblyReference.cache
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\XmlConnector\obj\Debug\XmlConnector.InterfacciaImpostazioni.resources
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\XmlConnector\obj\Debug\XmlConnector.csproj.GenerateResource.Cache
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\XmlConnector\obj\Debug\XmlConnector.dll
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\XmlConnector\obj\Debug\XmlConnector.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\XmlConnector\obj\Debug\XmlConnector.csprojResolveAssemblyReference.cache
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\XmlConnector\obj\Debug\XmlConnector.InterfacciaImpostazioni.resources
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\XmlConnector\obj\Debug\XmlConnector.csproj.GenerateResource.Cache
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\XmlConnector\obj\Debug\XmlConnector.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\XmlConnector\obj\Debug\XmlConnector.pdb
+Z:\Sviluppati in Sintec\Regen\Regen catalin\XmlConnector\bin\Debug\XmlConnector.dll
+Z:\Sviluppati in Sintec\Regen\Regen catalin\XmlConnector\bin\Debug\XmlConnector.pdb
+Z:\Sviluppati in Sintec\Regen\Regen catalin\XmlConnector\bin\Debug\VirtualCOnnectors.dll
+Z:\Sviluppati in Sintec\Regen\Regen catalin\XmlConnector\bin\Debug\VirtualCOnnectors.pdb
+Z:\Sviluppati in Sintec\Regen\Regen catalin\XmlConnector\obj\Debug\XmlConnector.csprojResolveAssemblyReference.cache
+Z:\Sviluppati in Sintec\Regen\Regen catalin\XmlConnector\obj\Debug\XmlConnector.InterfacciaImpostazioni.resources
+Z:\Sviluppati in Sintec\Regen\Regen catalin\XmlConnector\obj\Debug\XmlConnector.csproj.GenerateResource.Cache
+Z:\Sviluppati in Sintec\Regen\Regen catalin\XmlConnector\obj\Debug\XmlConnector.dll
+Z:\Sviluppati in Sintec\Regen\Regen catalin\XmlConnector\obj\Debug\XmlConnector.pdb
+Z:\Sviluppati in Sintec\Regen\Regen\XmlConnector\bin\Debug\XmlConnector.dll
+Z:\Sviluppati in Sintec\Regen\Regen\XmlConnector\bin\Debug\XmlConnector.pdb
+Z:\Sviluppati in Sintec\Regen\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.dll
+Z:\Sviluppati in Sintec\Regen\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.pdb
+Z:\Sviluppati in Sintec\Regen\Regen\XmlConnector\obj\Debug\XmlConnector.csprojResolveAssemblyReference.cache
+Z:\Sviluppati in Sintec\Regen\Regen\XmlConnector\obj\Debug\XmlConnector.InterfacciaImpostazioni.resources
+Z:\Sviluppati in Sintec\Regen\Regen\XmlConnector\obj\Debug\XmlConnector.csproj.GenerateResource.Cache
+Z:\Sviluppati in Sintec\Regen\Regen\XmlConnector\obj\Debug\XmlConnector.dll
+Z:\Sviluppati in Sintec\Regen\Regen\XmlConnector\obj\Debug\XmlConnector.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\bin\Debug\XmlConnector.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\bin\Debug\XmlConnector.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\obj\Debug\XmlConnector.InterfacciaImpostazioni.resources
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\obj\Debug\XmlConnector.csproj.GenerateResource.Cache
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\obj\Debug\XmlConnector.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\obj\Debug\XmlConnector.pdb
+Z:\Regen\Regen\XmlConnector\bin\Debug\XmlConnector.dll
+Z:\Regen\Regen\XmlConnector\bin\Debug\XmlConnector.pdb
+Z:\Regen\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.dll
+Z:\Regen\Regen\XmlConnector\bin\Debug\VirtualCOnnectors.pdb
+Z:\Regen\Regen\XmlConnector\obj\Debug\XmlConnector.csprojResolveAssemblyReference.cache
+Z:\Regen\Regen\XmlConnector\obj\Debug\XmlConnector.InterfacciaImpostazioni.resources
+Z:\Regen\Regen\XmlConnector\obj\Debug\XmlConnector.csproj.GenerateResource.Cache
+Z:\Regen\Regen\XmlConnector\obj\Debug\XmlConnector.dll
+Z:\Regen\Regen\XmlConnector\obj\Debug\XmlConnector.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\obj\Debug\XmlConnector.csprojResolveAssemblyReference.cache

@@ -1,0 +1,22 @@
+Z:\Regen\Regen\ReGen\VirtualCOnnectors\bin\x86\Debug\VirtualConnectors.dll
+Z:\Regen\Regen\ReGen\VirtualCOnnectors\bin\x86\Debug\VirtualConnectors.pdb
+Z:\Regen\Regen\ReGen\VirtualCOnnectors\obj\x86\Debug\VirtualConnectors.dll
+Z:\Regen\Regen\ReGen\VirtualCOnnectors\obj\x86\Debug\VirtualConnectors.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\bin\x86\Debug\VirtualConnectors.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\bin\x86\Debug\VirtualConnectors.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\obj\x86\Debug\VirtualConnectors.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\obj\x86\Debug\VirtualConnectors.pdb
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x86\Debug\VirtualConnectors.dll
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x86\Debug\VirtualConnectors.pdb
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x86\Debug\VirtualConnectors.dll
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x86\Debug\VirtualConnectors.pdb
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x86\Debug\VirtualConnectors.csprojResolveAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x86\Debug\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x86\Debug\VirtualConnectors.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x86\Debug\Sintec.Tool.dll
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x86\Debug\Sintec.Tool.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x86\Debug\VirtualConnectors.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x86\Debug\VirtualConnectors.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x86\Debug\VirtualConnectors.csproj.CopyComplete
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x86\Debug\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x86\Debug\VirtualConnectors.pdb

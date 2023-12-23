@@ -1,0 +1,90 @@
+C:\Users\PC12\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.exe.config
+C:\Users\PC12\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\MainWindow.baml
+C:\Users\PC12\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\MainWindow.g.cs
+C:\Users\PC12\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\App.g.cs
+C:\Users\PC12\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici_MarkupCompile.cache
+C:\Users\PC12\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.g.resources
+C:\Users\PC12\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore_di_codici.Properties.Resources.resources
+C:\Users\PC12\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.csproj.GenerateResource.Cache
+C:\Users\PC12\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.exe
+C:\Users\PC12\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.pdb
+C:\Users\PC12\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\bin\Debug\Sintec.Tool.dll
+C:\Users\PC12\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\bin\Debug\Sintec.Tool.pdb
+C:\Users\PC12\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.exe
+C:\Users\PC12\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.pdb
+C:\Users\PC12\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.csprojResolveAssemblyReference.cache
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.exe.config
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.exe
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.csprojResolveAssemblyReference.cache
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\MainWindow.baml
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\App.g.cs
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici_MarkupCompile.cache
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.g.resources
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore_di_codici.Properties.Resources.resources
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.csproj.GenerateResource.Cache
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.exe
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\bin\Debug\Sintec.Tool.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\bin\Debug\Sintec.Tool.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\WindowCheckCode.baml
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\WindowCheckCode.g.cs
+C:\Users\Sintec\Sviluppati in Sintec\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.exe.config
+C:\Users\Sintec\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.exe
+C:\Users\Sintec\Sviluppati in Sintec\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.pdb
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.exe.config
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.exe
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.pdb
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.exe
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.pdb
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\bin\Debug\Sintec.Tool.dll
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\bin\Debug\Sintec.Tool.pdb
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.csprojResolveAssemblyReference.cache
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\MainWindow.baml
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\WindowCheckCode.baml
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\WindowCheckCode.g.cs
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\App.g.cs
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici_MarkupCompile.cache
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.g.resources
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore_di_codici.Properties.Resources.resources
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.csproj.GenerateResource.Cache
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.exe.config
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.exe
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.pdb
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\bin\Debug\Sintec.Tool.dll
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\bin\Debug\Sintec.Tool.pdb
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\MainWindow.baml
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\WindowCheckCode.baml
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\MainWindow.g.cs
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\WindowCheckCode.g.cs
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\App.g.cs
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici_MarkupCompile.cache
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.g.resources
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore_di_codici.Properties.Resources.resources
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.csproj.GenerateResource.Cache
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.exe
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.pdb
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.csproj.CopyComplete
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.exe.config
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.exe
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\bin\Debug\Generatore di codici.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\bin\Debug\Sintec.Tool.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\bin\Debug\Sintec.Tool.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.csprojAssemblyReference.cache
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\MainWindow.baml
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\WindowCheckCode.baml
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\MainWindow.g.cs
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\WindowCheckCode.g.cs
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\App.g.cs
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici_MarkupCompile.cache
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.g.resources
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore_di_codici.Properties.Resources.resources
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.csproj.GenerateResource.cache
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.csproj.CoreCompileInputs.cache
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.csproj.CopyComplete
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.exe
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Generatore di codici\Generatore di codici\obj\x86\Debug\Generatore di codici.pdb

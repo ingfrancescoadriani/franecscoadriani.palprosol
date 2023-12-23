@@ -1,0 +1,101 @@
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\bin\Debug\S7Connector.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\bin\Debug\S7Connector.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\bin\Debug\VirtualCOnnectors.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\bin\Debug\VirtualCOnnectors.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.csprojResolveAssemblyReference.cache
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\obj\Debug\panelForConnector.resources
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.csproj.GenerateResource.Cache
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\bin\Debug\libnodave.net.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.Properties.Resources.resources
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\S7Connector\bin\Debug\S7Connector.dll
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\S7Connector\bin\Debug\S7Connector.pdb
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\S7Connector\bin\Debug\libnodave.net.dll
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\S7Connector\bin\Debug\VirtualCOnnectors.dll
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\S7Connector\bin\Debug\VirtualCOnnectors.pdb
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.csprojResolveAssemblyReference.cache
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\S7Connector\obj\Debug\panelForConnector.resources
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.Properties.Resources.resources
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.csproj.GenerateResource.Cache
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.dll
+C:\Users\Rice Cipriani\Dropbox\Sintec sviluppo\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.pdb
+Y:\Sorgenti\Regen\ReGen - Manuale\S7Connector\bin\Debug\S7Connector.dll
+Y:\Sorgenti\Regen\ReGen - Manuale\S7Connector\bin\Debug\S7Connector.pdb
+Y:\Sorgenti\Regen\ReGen - Manuale\S7Connector\bin\Debug\libnodave.net.dll
+Y:\Sorgenti\Regen\ReGen - Manuale\S7Connector\bin\Debug\VirtualCOnnectors.dll
+Y:\Sorgenti\Regen\ReGen - Manuale\S7Connector\bin\Debug\VirtualCOnnectors.pdb
+Y:\Sorgenti\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.csprojResolveAssemblyReference.cache
+Y:\Sorgenti\Regen\ReGen - Manuale\S7Connector\obj\Debug\panelForConnector.resources
+Y:\Sorgenti\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.Properties.Resources.resources
+Y:\Sorgenti\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.csproj.GenerateResource.Cache
+Y:\Sorgenti\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.dll
+Y:\Sorgenti\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.pdb
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.csprojResolveAssemblyReference.cache
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\S7Connector\obj\Debug\panelForConnector.resources
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.Properties.Resources.resources
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.csproj.GenerateResource.Cache
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.pdb
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\S7Connector\bin\Debug\S7Connector.dll
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\S7Connector\bin\Debug\S7Connector.pdb
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\S7Connector\bin\Debug\libnodave.net.dll
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\S7Connector\bin\Debug\Sintec.Tool.dll
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\S7Connector\bin\Debug\VirtualCOnnectors.dll
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\S7Connector\bin\Debug\Sintec.Tool.pdb
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\S7Connector\bin\Debug\VirtualCOnnectors.pdb
+C:\Users\PC12\Sviluppati in sintec non sincronizzati\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\ReGen - Manuale\S7Connector\obj\Debug\S7Connector.pdb
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\S7Connector\bin\Debug\S7Connector.dll
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\S7Connector\bin\Debug\S7Connector.pdb
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\S7Connector\bin\Debug\libnodave.net.dll
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\S7Connector\bin\Debug\Sintec.Tool.dll
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\S7Connector\bin\Debug\VirtualCOnnectors.dll
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\S7Connector\bin\Debug\Sintec.Tool.pdb
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\S7Connector\bin\Debug\VirtualCOnnectors.pdb
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\S7Connector\obj\Debug\S7Connector.csprojResolveAssemblyReference.cache
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\S7Connector\obj\Debug\panelForConnector.resources
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\S7Connector\obj\Debug\S7Connector.Properties.Resources.resources
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\S7Connector\obj\Debug\S7Connector.csproj.GenerateResource.Cache
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\S7Connector\obj\Debug\S7Connector.dll
+Z:\Sviluppati in Sintec\Regen\Regen catalin\ReGen\S7Connector\obj\Debug\S7Connector.pdb
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\bin\Debug\S7Connector.dll
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\bin\Debug\S7Connector.pdb
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\bin\Debug\libnodave.net.dll
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\bin\Debug\Sintec.Tool.dll
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\bin\Debug\VirtualCOnnectors.dll
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\bin\Debug\Sintec.Tool.pdb
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\bin\Debug\VirtualCOnnectors.pdb
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\obj\Debug\S7Connector.csprojResolveAssemblyReference.cache
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\obj\Debug\panelForConnector.resources
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\obj\Debug\S7Connector.Properties.Resources.resources
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\obj\Debug\S7Connector.csproj.GenerateResource.Cache
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\obj\Debug\S7Connector.dll
+Z:\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\obj\Debug\S7Connector.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\bin\Debug\S7Connector.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\bin\Debug\S7Connector.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\bin\Debug\libnodave.net.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\bin\Debug\Sintec.Tool.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\bin\Debug\VirtualCOnnectors.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\bin\Debug\Sintec.Tool.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\bin\Debug\VirtualCOnnectors.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\obj\Debug\S7Connector.csprojResolveAssemblyReference.cache
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\obj\Debug\panelForConnector.resources
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\obj\Debug\S7Connector.Properties.Resources.resources
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\obj\Debug\S7Connector.csproj.GenerateResource.Cache
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\obj\Debug\S7Connector.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\obj\Debug\S7Connector.pdb
+Z:\Regen\Regen\ReGen\S7Connector\bin\Debug\S7Connector.dll
+Z:\Regen\Regen\ReGen\S7Connector\bin\Debug\S7Connector.pdb
+Z:\Regen\Regen\ReGen\S7Connector\bin\Debug\libnodave.net.dll
+Z:\Regen\Regen\ReGen\S7Connector\bin\Debug\Sintec.Tool.dll
+Z:\Regen\Regen\ReGen\S7Connector\bin\Debug\VirtualCOnnectors.dll
+Z:\Regen\Regen\ReGen\S7Connector\bin\Debug\Sintec.Tool.pdb
+Z:\Regen\Regen\ReGen\S7Connector\bin\Debug\VirtualCOnnectors.pdb
+Z:\Regen\Regen\ReGen\S7Connector\obj\Debug\S7Connector.csprojResolveAssemblyReference.cache
+Z:\Regen\Regen\ReGen\S7Connector\obj\Debug\panelForConnector.resources
+Z:\Regen\Regen\ReGen\S7Connector\obj\Debug\S7Connector.Properties.Resources.resources
+Z:\Regen\Regen\ReGen\S7Connector\obj\Debug\S7Connector.csproj.GenerateResource.Cache
+Z:\Regen\Regen\ReGen\S7Connector\obj\Debug\S7Connector.dll
+Z:\Regen\Regen\ReGen\S7Connector\obj\Debug\S7Connector.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\S7Connector\bin\Debug\libnodave.dll

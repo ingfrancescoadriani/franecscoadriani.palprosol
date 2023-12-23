@@ -1,0 +1,42 @@
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\bin\x64\Debug\ThreeDConnector.dll
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\bin\x64\Debug\ThreeDConnector.pdb
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\bin\x64\Debug\Sintec.Tool.dll
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\bin\x64\Debug\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\bin\x64\Debug\Sintec.Tool.pdb
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\bin\x64\Debug\VirtualConnectors.pdb
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnectorSpace.InterfacciaImpostazioni.resources
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.Properties.Resources.resources
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.csproj.GenerateResource.cache
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.csproj.CopyComplete
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.dll
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ThreeDConnector\bin\x64\Debug\ThreeDConnector.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ThreeDConnector\bin\x64\Debug\ThreeDConnector.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ThreeDConnector\bin\x64\Debug\Sintec.Tool.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ThreeDConnector\bin\x64\Debug\VirtualConnectors.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ThreeDConnector\bin\x64\Debug\Sintec.Tool.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ThreeDConnector\bin\x64\Debug\VirtualConnectors.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.csprojAssemblyReference.cache
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnectorSpace.InterfacciaImpostazioni.resources
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.Properties.Resources.resources
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.csproj.GenerateResource.cache
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.csproj.CoreCompileInputs.cache
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.csproj.CopyComplete
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ThreeDConnector\bin\x64\Debug\ThreeDConnector.dll
+S:\Progetti\Regen\Software\Pc\Regen\ThreeDConnector\bin\x64\Debug\ThreeDConnector.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ThreeDConnector\bin\x64\Debug\Sintec.Tool.dll
+S:\Progetti\Regen\Software\Pc\Regen\ThreeDConnector\bin\x64\Debug\VirtualConnectors.dll
+S:\Progetti\Regen\Software\Pc\Regen\ThreeDConnector\bin\x64\Debug\Sintec.Tool.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ThreeDConnector\bin\x64\Debug\VirtualConnectors.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.csprojAssemblyReference.cache
+S:\Progetti\Regen\Software\Pc\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnectorSpace.InterfacciaImpostazioni.resources
+S:\Progetti\Regen\Software\Pc\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.Properties.Resources.resources
+S:\Progetti\Regen\Software\Pc\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.csproj.GenerateResource.cache
+S:\Progetti\Regen\Software\Pc\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\Software\Pc\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.csproj.CopyComplete
+S:\Progetti\Regen\Software\Pc\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.dll
+S:\Progetti\Regen\Software\Pc\Regen\ThreeDConnector\obj\x64\Debug\ThreeDConnector.pdb

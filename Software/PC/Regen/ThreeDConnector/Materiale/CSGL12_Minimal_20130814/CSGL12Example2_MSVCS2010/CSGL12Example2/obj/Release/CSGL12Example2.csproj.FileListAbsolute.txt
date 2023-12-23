@@ -1,0 +1,17 @@
+C:\Users\Sintec Notebook 2\Downloads\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\bin\Release\image.jpg
+C:\Users\Sintec Notebook 2\Downloads\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\bin\Release\CSGL12Example2.exe
+C:\Users\Sintec Notebook 2\Downloads\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\bin\Release\CSGL12Example2.pdb
+C:\Users\Sintec Notebook 2\Downloads\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\obj\Release\CSGL12Example2.CSGL12Example2Form.resources
+C:\Users\Sintec Notebook 2\Downloads\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\obj\Release\CSGL12Example2.Properties.Resources.resources
+C:\Users\Sintec Notebook 2\Downloads\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\obj\Release\CSGL12Example2.csproj.GenerateResource.Cache
+C:\Users\Sintec Notebook 2\Downloads\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\obj\Release\CSGL12Example2.exe
+C:\Users\Sintec Notebook 2\Downloads\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\obj\Release\CSGL12Example2.pdb
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\Materiale\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\obj\Release\CSGL12Example2.exe
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\Materiale\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\obj\Release\CSGL12Example2.pdb
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\Materiale\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\bin\Release\image.jpg
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\Materiale\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\bin\Release\CSGL12Example2.exe
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\Materiale\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\bin\Release\CSGL12Example2.pdb
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\Materiale\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\obj\Release\CSGL12Example2.csprojResolveAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\Materiale\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\obj\Release\CSGL12Example2.CSGL12Example2Form.resources
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\Materiale\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\obj\Release\CSGL12Example2.Properties.Resources.resources
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\Materiale\CSGL12_Minimal_20130814\CSGL12Example2_MSVCS2010\CSGL12Example2\obj\Release\CSGL12Example2.csproj.GenerateResource.Cache

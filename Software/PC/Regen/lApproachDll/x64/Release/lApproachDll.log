@@ -1,0 +1,35 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  lApproachDll.cpp
+s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1403): warning C4817: 'System::Array::Length': utilizzo non valido di '.' per l'accesso al membro. Sostituito con '->' dal compilatore.
+s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1424): warning C4947: 'System::Security::Cryptography::PasswordDeriveBytes::GetBytes': contrassegnato come obsoleto
+  s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1424): note: Messaggio: 'Rfc2898DeriveBytes replaces PasswordDeriveBytes for deriving key material from a password and is preferred in new applications.'
+s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1446): warning C4267: 'inizializzazione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1447): warning C4267: 'inizializzazione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1449): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: vedere la dichiarazione di 'strcpy'
+s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1450): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: vedere la dichiarazione di 'strcat'
+s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1476): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: vedere la dichiarazione di 'localtime'
+s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1477): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: vedere la dichiarazione di 'localtime'
+s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1493): warning C4101: 'e': variabile locale senza riferimenti
+s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1518): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: vedere la dichiarazione di 'strcpy'
+s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1519): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: vedere la dichiarazione di 'strcat'
+s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1539): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: vedere la dichiarazione di 'strcpy'
+s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1540): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: vedere la dichiarazione di 'strcat'
+s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1541): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: vedere la dichiarazione di 'strcat'
+s:\progetti\regen\repo\regen\lapproachdll\lapproachdll.cpp(1536): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: vedere la dichiarazione di 'sprintf'
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+     Creazione della libreria S:\Progetti\Regen\repo\x64\Release\lApproachDll.lib e dell'oggetto S:\Progetti\Regen\repo\x64\Release\lApproachDll.exp
+  Generazione codice in corso...
+  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generazione codice terminata
+  lApproachDll.vcxproj -> S:\Progetti\Regen\repo\x64\Release\lApproachDll.dll

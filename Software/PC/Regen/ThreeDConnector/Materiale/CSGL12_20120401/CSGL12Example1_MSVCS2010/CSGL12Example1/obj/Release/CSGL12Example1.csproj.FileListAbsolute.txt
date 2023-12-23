@@ -1,0 +1,10 @@
+C:\Users\Sintec Notebook 2\Downloads\CsGL\CSGL12_20120401\CSGL12Example1_MSVCS2010\CSGL12Example1\bin\Release\CSGL12Example1.exe
+C:\Users\Sintec Notebook 2\Downloads\CsGL\CSGL12_20120401\CSGL12Example1_MSVCS2010\CSGL12Example1\bin\Release\CSGL12Example1.pdb
+C:\Users\Sintec Notebook 2\Downloads\CsGL\CSGL12_20120401\CSGL12Example1_MSVCS2010\CSGL12Example1\bin\Release\CSGL12Control.dll
+C:\Users\Sintec Notebook 2\Downloads\CsGL\CSGL12_20120401\CSGL12Example1_MSVCS2010\CSGL12Example1\bin\Release\CSGL12DLL.dll
+C:\Users\Sintec Notebook 2\Downloads\CsGL\CSGL12_20120401\CSGL12Example1_MSVCS2010\CSGL12Example1\obj\Release\CSGL12Example1.csprojResolveAssemblyReference.cache
+C:\Users\Sintec Notebook 2\Downloads\CsGL\CSGL12_20120401\CSGL12Example1_MSVCS2010\CSGL12Example1\obj\Release\CSGL12Example1.CSGL12Example1Form.resources
+C:\Users\Sintec Notebook 2\Downloads\CsGL\CSGL12_20120401\CSGL12Example1_MSVCS2010\CSGL12Example1\obj\Release\CSGL12Example1.Properties.Resources.resources
+C:\Users\Sintec Notebook 2\Downloads\CsGL\CSGL12_20120401\CSGL12Example1_MSVCS2010\CSGL12Example1\obj\Release\CSGL12Example1.csproj.GenerateResource.Cache
+C:\Users\Sintec Notebook 2\Downloads\CsGL\CSGL12_20120401\CSGL12Example1_MSVCS2010\CSGL12Example1\obj\Release\CSGL12Example1.exe
+C:\Users\Sintec Notebook 2\Downloads\CsGL\CSGL12_20120401\CSGL12Example1_MSVCS2010\CSGL12Example1\obj\Release\CSGL12Example1.pdb

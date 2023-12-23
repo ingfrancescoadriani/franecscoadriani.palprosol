@@ -1,0 +1,22 @@
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\bin\Release\XmlConnector.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\bin\Release\XmlConnector.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\obj\Release\XmlConnector.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\obj\Release\XmlConnector.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\bin\Release\VirtualCOnnectors.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\bin\Release\VirtualCOnnectors.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\obj\Release\XmlConnector.InterfacciaImpostazioni.resources
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\obj\Release\XmlConnector.csproj.GenerateResource.Cache
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\obj\Release\XmlConnector.csprojResolveAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\XmlConnector\bin\Release\XmlConnector.dll
+S:\Progetti\Regen\repo\Regen\XmlConnector\bin\Release\XmlConnector.pdb
+S:\Progetti\Regen\repo\Regen\XmlConnector\bin\Release\Sintec.Tool.dll
+S:\Progetti\Regen\repo\Regen\XmlConnector\bin\Release\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\XmlConnector\bin\Release\Sintec.Tool.pdb
+S:\Progetti\Regen\repo\Regen\XmlConnector\bin\Release\VirtualConnectors.pdb
+S:\Progetti\Regen\repo\Regen\XmlConnector\obj\Release\XmlConnector.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\XmlConnector\obj\Release\XmlConnector.InterfacciaImpostazioni.resources
+S:\Progetti\Regen\repo\Regen\XmlConnector\obj\Release\XmlConnector.csproj.GenerateResource.cache
+S:\Progetti\Regen\repo\Regen\XmlConnector\obj\Release\XmlConnector.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\repo\Regen\XmlConnector\obj\Release\XmlConnector.csproj.CopyComplete
+S:\Progetti\Regen\repo\Regen\XmlConnector\obj\Release\XmlConnector.dll
+S:\Progetti\Regen\repo\Regen\XmlConnector\obj\Release\XmlConnector.pdb

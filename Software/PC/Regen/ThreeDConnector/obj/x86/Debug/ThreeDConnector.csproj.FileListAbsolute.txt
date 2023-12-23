@@ -1,0 +1,14 @@
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\bin\x86\Debug\ThreeDConnector.dll
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\bin\x86\Debug\ThreeDConnector.pdb
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\bin\x86\Debug\Sintec.Tool.dll
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\bin\x86\Debug\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\bin\x86\Debug\Sintec.Tool.pdb
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\bin\x86\Debug\VirtualConnectors.pdb
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x86\Debug\ThreeDConnector.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x86\Debug\ThreeDConnectorSpace.InterfacciaImpostazioni.resources
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x86\Debug\ThreeDConnector.Properties.Resources.resources
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x86\Debug\ThreeDConnector.csproj.GenerateResource.cache
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x86\Debug\ThreeDConnector.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x86\Debug\ThreeDConnector.csproj.CopyComplete
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x86\Debug\ThreeDConnector.dll
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\x86\Debug\ThreeDConnector.pdb

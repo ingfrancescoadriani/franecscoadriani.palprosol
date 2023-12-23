@@ -1,0 +1,9 @@
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\bin\Release\XmlConnector.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\bin\Release\XmlConnector.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\obj\Release\XmlConnector.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\obj\Release\XmlConnector.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\bin\Release\VirtualCOnnectors.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\bin\Release\VirtualCOnnectors.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\obj\Release\XmlConnector.InterfacciaImpostazioni.resources
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\obj\Release\XmlConnector.csproj.GenerateResource.Cache
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\XmlConnector\obj\Release\XmlConnector.csprojResolveAssemblyReference.cache

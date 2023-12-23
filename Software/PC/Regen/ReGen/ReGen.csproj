@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{C45D30AC-E8A2-4F59-882C-94B95C6CA5B9}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ReGen</RootNamespace>
+    <AssemblyName>ReGen</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>DC9A2E4B2DD8C6482373B1FACA4B53F73AF9937B</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ReGen_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>None</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>regen.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>None</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ReGen.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <LangVersion>default</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release installer|x86'">
+    <OutputPath>bin\x86\Release installer\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>None</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>default</LangVersion>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release installer|x64'">
+    <OutputPath>bin\x64\Release installer\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>None</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release installer|AnyCPU'">
+    <OutputPath>bin\Release installer\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>None</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PdfSharp">
+      <HintPath>.\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBoxSintec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBoxSintec.Designer.cs">
+      <DependentUpon>AboutBoxSintec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Approaches.cs" />
+    <Compile Include="Model\ApproachTo.cs" />
+    <Compile Include="Model\AutoPopulate\AllPlacementStrategy.cs" />
+    <Compile Include="Model\AutoPopulate\AddAllPayloadGroupStrategy.cs" />
+    <Compile Include="Model\AutoPopulate\AddPayloadGroupWithApproachStrategy.cs" />
+    <Compile Include="Model\AutoPopulate\ApproverStrategy.cs" />
+    <Compile Include="Model\AutoPopulate\PointByUserChoiceStrategy.cs" />
+    <Compile Include="Model\AutoPopulate\ExternalLabelBasedFilterStrategy.cs" />
+    <Compile Include="Model\AutoPopulate\FindGoodPayloadGroupToAddStrategy.cs" />
+    <Compile Include="Model\AutoPopulate\SolutionFacade.cs" />
+    <Compile Include="Model\AutoPopulate\StartFromZeroPointStrategy.cs" />
+    <Compile Include="Model\Binder\Aligner.cs" />
+    <Compile Include="Model\AutoPopulate\AllPointStrategy.cs" />
+    <Compile Include="Model\Binder\Binder.cs" />
+    <Compile Include="Model\Binder\Signaler.cs" />
+    <Compile Include="Model\Binder\ProblemOfPositioning\Collision.cs" />
+    <Compile Include="Model\RankerByDirection.cs" />
+    <Compile Include="Model\PayloadStrategy\BoxWithLabelStrategy.cs" />
+    <Compile Include="Model\WorkData.cs" />
+    <Compile Include="Model\OnNordRanker.cs" />
+    <Compile Include="Model\PayloadOnPalletRanker.cs" />
+    <Compile Include="Model\PayloadStrategy\BoxWithRightSurplusStrategy.cs" />
+    <Compile Include="Model\Sequencer.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="View\OpenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\OpenForm.Designer.cs">
+      <DependentUpon>OpenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FigurePayloadWithLabel.cs" />
+    <Compile Include="View\FigureRanieriPayloadGroup.cs" />
+    <Compile Include="View\LayerVisualizationManager.cs" />
+    <Compile Include="View\LayerVisualization.cs" />
+    <Compile Include="View\LayerThumbnail.cs" />
+    <Compile Include="View\FigurePayloadGroup.cs" />
+    <Compile Include="View\FigurePayloadWithRightSurplus.cs" />
+    <Compile Include="View\Figure.cs" />
+    <Compile Include="View\FigurePayload.cs" />
+    <Compile Include="Model\Binder\MouseBinder.cs" />
+    <Compile Include="View\Licence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Licence.Designer.cs">
+      <DependentUpon>Licence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\PayloadThumbnail.cs" />
+    <Compile Include="View\PayloadVisualization.cs" />
+    <Compile Include="View\PayloadVisualizationManager.cs" />
+    <Compile Include="Model\Binder\ProblemOfPositioning\ProblemOfPositioning.cs" />
+    <Compile Include="Model\Binder\Repellers.cs" />
+    <Compile Include="Model\Binder\Approacher.cs" />
+    <Compile Include="Model\PayloadStrategy\BoxStrategy.cs" />
+    <Compile Include="Model\AutoPopulate\CandidateLayer.cs" />
+    <Compile Include="Model\AutoPopulate\CandidateSolution.cs" />
+    <Compile Include="Model\AutoPopulate\FindCandidateStrategy.cs" />
+    <Compile Include="Model\AutoPopulate\FindPointsStrategy.cs" />
+    <Compile Include="Model\Layer.cs" />
+    <Compile Include="View\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Pallet.cs" />
+    <Compile Include="Model\PalletOnSystem.cs" />
+    <Compile Include="Model\Payload.cs" />
+    <Compile Include="Model\PayloadGroup.cs" />
+    <Compile Include="Model\PayloadPlaced.cs" />
+    <Compile Include="Model\PayloadStrategy\PayloadStrategy.cs" />
+    <Compile Include="Model\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Model\PayloadStrategy\SacStrategy.cs" />
+    <Compile Include="View\PlacingState.cs" />
+    <Compile Include="View\toolForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\toolForm.Designer.cs">
+      <DependentUpon>toolForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBoxSintec.resx">
+      <DependentUpon>AboutBoxSintec.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MainForm.it.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\OpenForm.resx">
+      <DependentUpon>OpenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Licence.resx">
+      <DependentUpon>Licence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\toolForm.resx">
+      <DependentUpon>toolForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Sintec.Tool\Sintec.Tool.csproj">
+      <Project>{27F6734F-F19A-4D64-B6FC-A0A4D8ACA5F9}</Project>
+      <Name>Sintec.Tool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\lApproachDll\lApproachDll.vcxproj">
+      <Project>{85B3699A-ED2F-4315-992E-0970CC027951}</Project>
+      <Name>lApproachDll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModBusTCPIPConnector\ModBusTCPIPConnector.csproj">
+      <Project>{e02a3c5f-07ab-44ba-9689-49748589c888}</Project>
+      <Name>ModBusTCPIPConnector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\S7Connector\S7Connector.csproj">
+      <Project>{0e9350b1-52ca-4ed2-a738-3d43f5fc4092}</Project>
+      <Name>S7Connector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThreeDConnector\ThreeDConnector.csproj">
+      <Project>{ff1ff24c-32ae-493e-870d-475c32c44b65}</Project>
+      <Name>ThreeDConnector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XmlConnector\XmlConnector.csproj">
+      <Project>{2ba5984a-c811-4644-933d-e81ee1bd2310}</Project>
+      <Name>XmlConnector</Name>
+    </ProjectReference>
+    <ProjectReference Include="VirtualCOnnectors\VirtualConnectors.csproj">
+      <Project>{F32F9C27-B171-4915-BCA6-745AD5C0BBDC}</Project>
+      <Name>VirtualConnectors</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="bin\Release\languages\English.lng" />
+    <None Include="bin\Release\languages\Italiano.lng" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Resources\cliente1_2.ren" />
+    <None Include="Resources\cliente2_1.ren" />
+    <None Include="Resources\cliente2_2.ren" />
+    <None Include="Resources\English.lng" />
+    <None Include="Resources\Immagine_X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Immagine_Y.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\interfalda-in-cartone-alveolare.png" />
+    <None Include="Resources\interfalda-in-cartone-alveolare_PDT02369.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon_.ico" />
+    <Content Include="regen.ico" />
+    <None Include="Resources\Italiano.lng" />
+    <None Include="Resources\prodotti misti.ren" />
+    <None Include="Resources\view_details.png" />
+    <None Include="Resources\view_icons.png" />
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+</Project>

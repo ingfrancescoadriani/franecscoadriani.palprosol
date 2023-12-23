@@ -1,0 +1,9 @@
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x64\Release\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x64\Release\VirtualConnectors.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x64\Release\Sintec.Tool.dll
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x64\Release\Sintec.Tool.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x64\Release\VirtualConnectors.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x64\Release\VirtualConnectors.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x64\Release\VirtualConnectors.csproj.CopyComplete
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x64\Release\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x64\Release\VirtualConnectors.pdb

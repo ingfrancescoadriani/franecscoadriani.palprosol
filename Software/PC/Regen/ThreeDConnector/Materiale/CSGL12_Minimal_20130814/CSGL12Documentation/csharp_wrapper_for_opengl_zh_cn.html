@@ -1,0 +1,2840 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+<head>
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+<title>C# OpenGL接口</title>
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+<link rel="icon" href="http://colinfahey.com/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="http://colinfahey.com/favicon.ico" type="image/x-icon" />
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+<meta name="keywords" content="Colin Fahey, C# OpenGL接口" />
+<meta name="description" content="C# OpenGL接口" />
+<meta name="author" content="Colin Fahey" />
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+<style type="text/css" media="all">
+<!--
+
+body, p, h1, h2, h3, h4, h5, h6, a, table, tr, td, div, ul, ol, li, pre
+{
+font-family: verdana,arial,helvetica,sans-serif;
+font-size: 13px;
+font-weight: normal;
+letter-spacing: 0px;
+color: #000000;
+background-color: #ffffff;
+}
+
+
+h1, h2, h3, h4, h5, h6, a
+{
+font-family: arial,helvetica,sans-serif;
+font-weight: bold;
+}
+
+h1   { font-size: 32px; }
+h2   { font-size: 26px; }
+h3   { font-size: 24px; }
+h4   { font-size: 22px; }
+h5   { font-size: 19px; }
+h6   { font-size: 16px; }
+
+a:link    { text-decoration: underline; color: #0000ff; }
+a:visited { text-decoration: underline; color: #2222ff; }
+a:active  { text-decoration: underline; color: #ffffff; background-color: #0000ff;	}
+
+.tablecolumnheading { text-align: center; font-family: arial,helvetica,sans-serif; font-size: 13px; font-weight: normal; letter-spacing: 0px; color: #000000; margin: 0px; background-color: #C0C0C0; }
+.tablecellcenter    { text-align: center; font-family: arial,helvetica,sans-serif; font-size: 13px; font-weight: normal; letter-spacing: 0px; color: #000000; margin: 0px; background-color: #ffffff; }
+.tablecellplain     { font-family: verdana,arial,helvetica,sans-serif; font-size: 13px; font-weight: normal; letter-spacing: 0px; color: #000000; margin: 0px; background-color: #ffffff; }
+.tablecellright     { font-family: verdana,arial,helvetica,sans-serif; font-size: 13px; font-weight: normal; letter-spacing: 0px; color: #000000; text-align: right; margin: 0px; background-color: #ffffff; }
+.tableprestyle      { font-family: courier,arial,helvetica,sans-serif; font-weight: normal; letter-spacing: 0px; color: #000000; margin: 0px; background-color: #ffffff; }
+-->
+</style>
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+</head>
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+<body style="width:800px; margin-left:auto; margin-right:auto;">
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+<div>
+<a href="csharp_wrapper_for_opengl_en.html">English</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_es.html">Español</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_pt.html">Português</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_fr.html">Français</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_it.html">Italiano</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_de.html">Deutsch</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_nl.html">Nederlands</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_sv.html">Svenska</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_da.html">Dansk</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_fi.html">Suomi</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_no.html">Norsk</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_ru.html">Русский</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_pl.html">Polski</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_ro.html">Română</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_bg.html">Български</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_hr.html">Hrvatski</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_cs.html">Česky</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_zh_cn.html">中国</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_zh_tw.html">中國</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_ja.html">日本語</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_ko.html">한국어</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_el.html">Ελληνική</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_hi.html">हिन्दी</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_ar.html">العربية</a>&nbsp;
+</div>
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<div style="height: 96px;"></div>
+
+
+
+<div style="display: inline; background-color: #ffffff; font-family: arial,helvetica,sans-serif; font-size: 75px; color: #000000; ">
+<b>C# OpenGL接口</b></div>
+
+
+<div style="height: 16px;"></div>
+
+
+
+<div style="display: inline; background-color: #ffffff; font-family: arial,helvetica,sans-serif; font-size: 40px; color: #000000; ">
+<b>为Windows作业系统</b></div>
+
+
+<div style="height: 16px;"></div>
+
+
+
+<div style="display: inline; background-color: #ffffff; font-family: arial,helvetica,sans-serif; font-size: 24px; color: #000000; ">
+<b>Colin Fahey</b></div>
+
+
+<div style="height: 96px;"></div>
+
+
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 672px; max-width: 800px; ">
+<img src="CSGL12Example1_ScreenImage.png" id="CSGL12Example1_ScreenImage.png" alt="CSGL12Example1_ScreenImage.png" width="672" height="538" /><br /><div style="display: inline; ">
+<i>CSGL12Control的Form ，显示出“分形”像素着色器程序，并GDI+绘图复制到纹理</i></div>
+</div>
+</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 688px; max-width: 800px; ">
+<img src="CSGL12Example2_ScreenImage.png" id="CSGL12Example2_ScreenImage.png" alt="CSGL12Example2_ScreenImage.png" width="688" height="544" /><br /><div style="display: inline; ">
+<i>两个CSGL12Control情况的Form ，显示像素着色器程序和纹理</i></div>
+</div>
+</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="CSGL12Avatar_ScreenImage.png" id="CSGL12Avatar_ScreenImage.png" alt="CSGL12Avatar_ScreenImage.png" width="640" height="480" /><br /><div style="display: inline; ">
+<i>三维头像的漫游在台式电脑和可移动的光标</i></div>
+</div>
+</div>
+
+
+
+
+<div style="height: 96px;"></div>
+
+
+<h1 style="display: block; background-color: #ffffff; ">1. 软件</h1>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; ">
+<div style="background-color: #ffffff; border-width: 1px; border-color: #000000; border-style: solid; ">
+<div style="background-color: #ffffff; padding-left: 64px; padding-right: 0px; padding-top: 32px; padding-bottom: 32px; border-color: #000000; ">
+<div style="display: inline; background-color: #ffffff; border-color: #000000; ">
+
+
+<div style="display: inline; background-color: #ffffff; border-color: #000000; ">
+此版本的这个文件应该只包含在“CSGL12”软件。&nbsp; 如果您无法找到该软件，那么请去以下网站下载该软件： <a style="display: inline; color: #0000ff; " href="http://colinfahey.com">http://colinfahey.com</a> 。</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div style="height: 96px;"></div>
+
+
+<h1 style="display: block; background-color: #ffffff; ">2. 所有C#计算机代码的C# OpenGL接口（ CSGL12 ）是在“公共领域”</h1>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+我写的所有C#计算机代码的C# OpenGL接口（ CSGL12 ） 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+我宣布所有C#计算机代码的C# OpenGL接口（ CSGL12 ）是在“公共领域” 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+因此，计算机代码可以用于任何目的（商业或私人） ，不用付钱，没有任何限制，没有义务，不承认原作者。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+代码可以被修改，或部分重复使用，没有任何限制，也没有义务，不承认原作者。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+例子程序，包括少量的计算机代码（具体来说， “shader计算机代码）所写的其他人。”&nbsp; 这些代码不属于自己的界面，可trivially删除。&nbsp; 这些代码只是显示简单的使用界面创建和使用“shader”程序。&nbsp; </div>
+
+
+
+
+<div style="height: 96px;"></div>
+
+
+<h1 style="display: block; background-color: #ffffff; ">3. 导言</h1>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+“CSGL12”是一家集C#计算机代码文件，实现一个接口的OpenGL图形库（包括所有OpenGL延长至2007年）为Windows操作系统。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+计算机代码的C#中的文件“CSGL12”收集可以很容易地添加OpenGL绘图软件的任何C# / .NET与“Form” （一个实例“System.Windows.Forms.Form” ） 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+收集的“CSGL12”计算机代码文件包含一个名为“CSGL12Control.cs” ，它定义了一类名为“CSGL12Control” ，来自“System.Windows.Forms.Control” 。&nbsp; 每个实例“CSGL12Control”代表一个独立的OpenGL绘图区。&nbsp; 这是很容易的添加多个实例CSGL12Control到Form （一个实例System.Windows.Forms.Form ） 。</div>
+
+
+
+
+<div style="height: 96px;"></div>
+
+
+<h1 style="display: block; background-color: #ffffff; ">4. 特点和要求的“CSGL12”</h1>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该代码是唯一的Windows操作系统支持.NET 2.0 Framework (Windows 2000, Windows XP, Windows Vista, Windows 7)</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该代码可以使用“Microsoft Visual C# 2008 Express Edition”汇编（自由编译） ，或类似的C#汇编。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+守则规定正在建造的“[X] Allow unsafe code”建设的选择，以便优化图像数据复制功能都可以使用。&nbsp; 如果你是一个专家C#编程，你将能够很容易地确定部分C#代码，需要“unsafe”选择和禁用如果希望或要求。&nbsp; 图像数据复制是指10倍的速度比使用“unsafe”代码的替代，这就是为什么这样的代码的使用。&nbsp; 如果您建立一个DLL ，其中包含所有的“unsafe”代码，然后一个项目，使用该DLL不需要正在修建的“unsafe”选项，这样您就可以推断，如果没有“unsafe”选择一个项目，并不意味着任何额外安全（因为许多DLL文件用于含蓄或明确的计划包含“不安全的”代码） 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该代码可以编译和使用的下列任何一种：</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="background-color: #ffffff; font-family: 'Courier New',courier,monospace,arial,helvetica,sans-serif; white-space: nowrap; padding-left: 64px; padding-right: 0px; padding-top: 32px; padding-bottom: 32px; border-width: 0px; border-color: #000000; ">
+Microsoft&nbsp;Visual&nbsp;C#&nbsp;2008&nbsp;Express&nbsp;Edition<br />
+Microsoft&nbsp;Visual&nbsp;Studio&nbsp;2008<br />
+Microsoft&nbsp;.NET&nbsp;3.5&nbsp;SDK<br />
+SharpDevelop<br />
+Mono&nbsp;Project</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+代码提供最OpenGL扩展（通过一年2007 ） ，包括“vertex shaders”和“pixel shaders” 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该法规定1570有关职能OpenGL ：</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="background-color: #ffffff; font-family: 'Courier New',courier,monospace,arial,helvetica,sans-serif; white-space: nowrap; padding-left: 64px; padding-right: 0px; padding-top: 32px; padding-bottom: 32px; border-width: 0px; border-color: #000000; ">
+&nbsp;336&nbsp;&nbsp;GL&nbsp;&nbsp;functions<br />
+&nbsp;&nbsp;51&nbsp;&nbsp;GLU&nbsp;functions<br />
+&nbsp;&nbsp;19&nbsp;&nbsp;WGL&nbsp;functions<br />
+1164&nbsp;&nbsp;extensions</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+代码提供了一些替代变异1570功能，不同的参数类型，以方便使用。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+代码定义超过3244常数OpenGL 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该代码可以有多个OpenGL绘制背景下，所有动画，独立于任何“Form” 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+点击“CSGL12Control”给它“投入的重点” ，使随后的键盘和鼠标滚轮的投入。鼠标点击次数和运动时，收到光标的矩形区域内的一个实例“CSGL12Control” 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+包括职能的代码演示如何做一些共同OpenGL任务C#和.NET 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+代码列出了所有OpenGL常数和职能按字母顺序排列在“class GL”在“GL.cs” ，因此很容易，以确定是否任何常数或功能缺失（这是不可能的，除了延长一年后通过2007 ） 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+示例程序显示如何做GDI+即将Bitmap ，然后如何复制的Bitmap的OpenGL纹理。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+这使文本和其他GDI+绘图功能作出贡献一OpenGL现场。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该GDI+ Bitmap可以更新和上传到OpenGL纹理作为往往因为一旦百分之OpenGL框架。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+示例程序显示如何选择从几个不同的“pixel shader programs”而程序运行。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+示例程序显示如何撰写OpenGL缓冲器图像文件（ JPG ， BMP ， GIF ， PNG ） 。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+新闻<b>Shift + 0</b> （移零）写入OpenGL缓冲区图像文件。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+示例代码显示如何编译“GL.cs”在一个DLL文件，然后补充说DLL文件到另一个项目中，可以防止Microsoft代码编辑器（例如， Microsoft Visual C# 2008 Express Edition等等） “IntelliSense” （上下文相关的代码完成）成为经常和坚持响应（多次暂停对许多秒钟，使编辑器完全无法使用） 。&nbsp; 在该文件“GL.cs”直接包括在任何项目正在编辑的Microsoft代码编辑器是不切合实际，除非一个人愿意忍受缓慢的编辑器。&nbsp; 这个问题已经影响到Microsoft Visual Studio 2003 ， 2005 ， 2008 ，并可能会影响到2010版本了。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+示例代码演示了使用多个实例“CSGL12Control”的“Form” 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该代码示例包括代码作出3D “化身”的漫游在桌面的Windows 。</div>
+
+
+
+
+<div style="height: 96px;"></div>
+
+
+<h1 style="display: block; background-color: #ffffff; ">5. 示例程序中包含的“CSGL12”</h1>
+
+
+
+
+<div style="height: 48px;"></div>
+
+
+<h2 style="display: block; background-color: #ffffff; ">5.1 “CSGL12DLL”</h2>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该项目命名为“CSGL12DLL”生产DLL档名为“CSGL12DLL.dll”其中载“class GL” （界定的C#文件“GL.cs” ） 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+把“class GL”在一个DLL文件，然后使用该DLL在其他项目使用“class GL” ，有助于避免极端的问题，所有Microsoft代码编辑与IntelliSense功能。&nbsp; 使用C#文件GL.cs中直接将一个项目造成任何Microsoft代码编辑器的功能与IntelliSense成为完全响应和使用几乎不断由于效率低下， IntelliSense功能（和一个事实，即IntelliSense显然块主程序线程的编辑器） 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+如果您使用的是C#代码编辑器不产生Microsoft （例如， “SharpDevelop” ， “MonoDevelop”等） ，然后您只需包括档案“GL.cs”直接在您的项目，你也不可能获得任何好处使用“CSGL12DLL.dll” 。&nbsp; </div>
+
+
+
+
+<div style="height: 48px;"></div>
+
+
+<h2 style="display: block; background-color: #ffffff; ">5.2 “CSGL12Control”</h2>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该项目命名为“CSGL12Control”生产DLL档名为“CSGL12Control.dll”其中载“class CSGL12Control” （界定的C#文件“CSGL12Control.cs” ） 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+把“class CSGL12Control”在一个DLL文件，使这一“Control” （即一类来自“System.Windows.Forms.Control” ）要添加到“Toolbox”的Microsoft Visual C# 2008 Express Edition （和类似C#编辑） 。&nbsp; 在“CSGL12Control”在“Toolbox” ，让一个人购买的一个实例“CSGL12Control”到“Form”在“Designer” （例如，一个人可以简单地使用鼠标拖动选择一个实例“CSGL12Control”从“Toolbox”到“Form” ） 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+管理对象的“CSGL12Control”一个OpenGL绘图方面。&nbsp; 多个实例“CSGL12Control”可以共存的“Form” 。</div>
+
+
+
+
+<div style="height: 48px;"></div>
+
+
+<h2 style="display: block; background-color: #ffffff; ">5.3 “CSGL12Example1”</h2>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该项目命名为“CSGL12Example1”产生一个可执行程序文件（ EXE ）命名“CSGL12Example1.exe” 。&nbsp; 程序使用“CSGL12DLL.dll”和“CSGL12Control.dll”展示的一个实例CSGL12Control并提请一个立方体使用OpenGL 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该计划表明了使用四种不同的“pixel shaders” （ “分形” ， “砖” ， “木” ，和“漫画” ） 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该计划还表明使用“GDI+” ，一个.NET绘图图书馆，利用文字和其他形状为“Bitmap”对象（一“GDI+”对象） ，然后复制图像数据从“Bitmap”到“texture”在OpenGL ，从而使图像得出由“GDI+”出现在OpenGL绘图。&nbsp; 这种能力是非常有用的，因为OpenGL缺乏许多2D绘图功能在“GDI+”和类似2D图纸libaries 。</div>
+
+
+
+
+<div style="height: 48px;"></div>
+
+
+<h2 style="display: block; background-color: #ffffff; ">5.4 “CSGL12Example2”</h2>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该项目命名为“CSGL12Example2”产生一个可执行程序文件（ EXE ）命名“CSGL12Example2.exe” 。&nbsp; 程序使用“CSGL12DLL.dll”和“CSGL12Control.dll”显示的两个实例CSGL12Control ，每个提请一个立方体使用OpenGL 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该计划有“SplitContainer” “Control”的“Form” 。&nbsp; 这两个地区的“SplitContainer”包含的一个实例CSGL12Control 。&nbsp; 因此，一个人可以调整的立场分歧的两个实例CSGL12Control 。&nbsp; 这体现了灵活性CSGL12Control 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+其中一个实例CSGL12Control发送事件一套事件处理程序中的一个实例“CSGL12Example2Handler1.cs” ，它使用相同的代码作为“CSGL12Example1Handler.cs”在“CSGL12Example1”例如项目。&nbsp; 因此，其中一个实例CSGL12Control提请立方体与一个选定“pixel shader”可从四个“pixel shaders” 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+其他实例CSGL12Control发送事件一套事件处理程序中的一个实例“CSGL12Example2Handler2.cs” ，提请立方体使用纹理图像（或一个“棋盘”格局，如果图像文件名为“image.jpg”没有找到） 。&nbsp; </div>
+
+
+
+
+<div style="height: 48px;"></div>
+
+
+<h2 style="display: block; background-color: #ffffff; ">5.5 “CSGL12Avatar”</h2>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该项目命名为“CSGL12Avatar”产生一个可执行程序文件（ EXE ）命名“CSGL12Avatar.exe” 。&nbsp; 程序使用“CSGL12DLL.dll”和“CSGL12Control.dll”提请使用OpenGL一个立方体上“Form”没有边界，同颜色的透明度启用，得出3D “头像”说，漫游在Windows桌面领域。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+移动avatar可以点击和拖曳到新的位置使用的光标。&nbsp; 双击avatar将使它消失。&nbsp; 虽然代码只是利用一个立方体， OpenGL可用来吸引其他的东西。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+多个实例“头像”程序可以开始。&nbsp; 因此，许多独立的“化身”情况下可以同时漫游的Windows桌面。&nbsp; 这是有趣的。&nbsp; 一位专家C#程序员可以享受寻找途径，以协调活动，许多此类“化身”情况。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+不幸的是，利率在该Window对象透明度是在屏幕上的更新是远远低于速度OpenGL可以借鉴。&nbsp; 只有更新的“化身” 10次每秒。&nbsp; 我不知道这是否可以得到改善。&nbsp; </div>
+
+
+
+
+<div style="height: 48px;"></div>
+
+
+<h2 style="display: block; background-color: #ffffff; ">5.6 “CSGL12BuiltExecutableExamplesForReference”</h2>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+目录命名“CSGL12BuiltExecutableExamplesForReference”包含DLL文件和EXE档案所产生的所有例子项目。&nbsp; 这些文件是提供作为参考，以便文件可以立即进行测试，即使一个人没有能力编制的各种项目从提供C#代码。</div>
+
+
+
+
+<div style="height: 48px;"></div>
+
+
+<h2 style="display: block; background-color: #ffffff; ">5.7 “CSGL12UsefulCode”</h2>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+目录命名“CSGL12UsefulCode”包含C#档案，可能是有用的人谁想做的事司空见惯绘图行动OpenGL 。&nbsp; 目录还包括DLL档案“CSGL12DLL.dll”和“CSGL12Control.dll”方便。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+代码目录中的定义各种class类型，如Color4f ， Vector3f ， Matrix4x4f ， Triangle ， Mesh ， ImageData ， Texture ， ShaderProgram等&nbsp; 该代码是合理有效的，但代码只是为了激发人们开发自己的实现。</div>
+
+
+
+
+<div style="height: 96px;"></div>
+
+
+<h1 style="display: block; background-color: #ffffff; ">6. CSGL12档案</h1>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该“CSGL12”收集C#计算机代码的文件包括文件显示在下面的图表：</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="csgl12_files.png" id="csgl12_files.png" alt="csgl12_files.png" width="640" height="740" /><br /><div style="display: inline; ">
+<i>该“CSGL12”收集C#计算机代码的文件包括文件显示在这图。</i></div>
+</div>
+</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该软件还包括“CSGL12”项目，以创造两个DLL文件（ “CSGL12DLL.dll”和“CSGL12Control.dll” ）中显示图。&nbsp; 这两个DLL文件可以创造，使其更方便地创建程序，使用OpenGL ，但它也可能创造的程序只使用C#文件直接。</div>
+
+
+
+
+<div style="height: 96px;"></div>
+
+
+<h1 style="display: block; background-color: #ffffff; ">7. “namespace CSGL12”和“class”类型</h1>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该“CSGL12”收集C#计算机代码文件定义“namespace CSGL12”和“class”类型显示在下面的图表：</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="csgl12_namespace_and_classes.png" id="csgl12_namespace_and_classes.png" alt="csgl12_namespace_and_classes.png" width="640" height="1072" /><br /><div style="display: inline; ">
+<i>该“CSGL12”收集C#计算机代码文件定义“namespace CSGL12”和“class”类型在此图。</i></div>
+</div>
+</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+一个程序，它OpenGL图纸可以创造只用“class GL” （使用C#文件GL.cs直接，或通过使用DLL文件CSGL12DLL.dll其中还包含“class GL” ） 。&nbsp; 然而，使用“class CSGL12Control” （使用C#文件CSGL12Control.cs直接，或通过使用DLL文件CSGL12Control.dll其中还包含“class CSGL12Control” ）使得添加OpenGL即将Form （ System.Windows.Forms.Form ）简单方便。</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该C#班Color4f ， CSGL12Support ， ImageData ， ...&nbsp; ，底部的图是只提供方便。&nbsp; 这些课程使之更容易创建程序，提请使用OpenGL 。&nbsp; 但是，您可能已经执行的类的业务在这些课程，或您可以选择建立类似的课程，执行不同的业务或更有效率。&nbsp; 这些课程是作为一个特定的例子代码的设计和实施。&nbsp; </div>
+
+
+
+
+<div style="height: 96px;"></div>
+
+
+<h1 style="display: block; background-color: #ffffff; ">8. 使用单一“CSGL12Control”的System.Windows.Forms.Form</h1>
+
+
+
+
+<div style="height: 48px;"></div>
+
+
+<h2 style="display: block; background-color: #ffffff; ">8.1 程序结构</h2>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+下面的图表显示了如何计划与System.Windows.Forms.Form可以使用一个单一的“CSGL12Control”做绘图OpenGL 。&nbsp; 如图所示的各种CSGL12文件用于建设项目。</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="csgl12_windows_form_program.png" id="csgl12_windows_form_program.png" alt="csgl12_windows_form_program.png" width="640" height="480" /><br /><div style="display: inline; ">
+<i>程序使用单一“CSGL12Control”的System.Windows.Forms.Form</i></div>
+</div>
+</div>
+
+
+
+
+<div style="height: 48px;"></div>
+
+
+<h2 style="display: block; background-color: #ffffff; ">8.2 使用Microsoft Visual C#创建计划</h2>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+(1)开始Microsoft Visual C# 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+(2)在菜单中，选择“File” -&gt; “New Project...”&nbsp; 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+(3)在“New Project”对话框中，选择“Windows Forms Application” ，并选择一个名称的程序，并按下“OK” 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+(4)立即节省“Solution”选择“File” -&gt; “Save All” 。&nbsp; 一个对话框的标题“Save Project”会出现，让您设置项目名称，目录位置，和“解决方案”的项目名称。&nbsp; 记住的目录位置，以便您准备下一指示。&nbsp; 按“Save”按钮，保存该项目。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+(5)复制所有文件的目录“CSGL12UsefulCode”在“CSGL12”软件的目录下的源代码文件的新项目（即目录文件“Form1.cs” ， “Form1.Designer.cs” ， “Program.cs”等） ，例如，该文件“CSGL12DLL.dll” ， “CSGL12Control.dll” ， “Color4f.cs” ， “CSGL12Support.cs”等，同时新的项目文件“Form1.cs”等</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+(6)在Microsoft Visual C# ，添加“CSGL12” C#文件到项目中。&nbsp; 在菜单中，选择“Project” -&gt; “Add Existing Item...”&nbsp; ，并在“Add Existing Item”对话框中，选择所有C#文件从CSGL12软件（ “Color4f.cs” ， “CSGL12Support.cs” ， “ImageData.cs” ， ...).</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+(7)在Microsoft Visual C# ，添加“引用”的DLL文件“CSGL12DLL.dll”和“CSGL12Control.dll” 。&nbsp; 在菜单中，选择“Project” -&gt; “Add Reference...”&nbsp; ，并在“Add Reference”对话框中，选择“Browse”标签，并选择文件“CSGL12DLL.dll”和“CSGL12Control.dll”从项目源文件的目录，并按下“OK” 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+(8)在Microsoft Visual C# ，添加“CSGL12Control”的“Toolbox” 。&nbsp; 在菜单中，选择“Tools” -&gt; “Choose Toolbox Items...”&nbsp; 。&nbsp; 在“Choose Toolbox Items”对话框中，按下“Browse...”按钮，并转到项目目录的源代码文件，并选择“CSGL12Control.dll” 。&nbsp; 按“OK”按钮。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+(9)在Microsoft Visual C# ，查看“Toolbox” 。&nbsp; 在菜单中，选择“View” -&gt; “Toolbox” 。&nbsp; 在“Toolbox” ，去节命名“General” ，并找到了这个项目命名为“CSGL12Control” 。&nbsp; 使用光标，按一下该项目命名为“CSGL12Control”和将其拖放到“Form”在“Design”观点。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+(10)在Microsoft Visual C# ，在“Form” “Design”认为，移动“CSGL12Control”例如对“Form”和调整其宽度和高度。&nbsp; 在“Properties”小组，确定了“Anchor”价值包括“Top, Bottom, Left, Right”如果你想控制改变大小根据变化的程序窗口的大小。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+(11)在Microsoft Visual C# ，更改项目内容，以便它能够使用“unsafe”代码。&nbsp; 在菜单中，选择“Project” -&gt; “[project] Properties...”&nbsp; 。&nbsp; 选择对话框中，选择标签命名“Build” ，并选中复选框命名“[X] Allow unsafe code” 。&nbsp; 关闭项目属性对话框。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+(12)在Microsoft Visual C# ，增加一个新C#文件到项目中。&nbsp; 在菜单中，选择“Project” -&gt; “Add New Item...”&nbsp; 。&nbsp; 在对话框中命名“Add New Item” ，选择模板命名“Class” ，并选择新的名称类类型，如“CSGL12MyHandler.cs” ，然后按“Add”按钮。&nbsp; 看看例如项目命名“CSGL12Example1” ，在同名的文件“CSGL12Example1Handler.cs” ，作为一个例子，如何代码“CSGL12MyHandler.cs”应当书面。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+(13)在Microsoft Visual C# ，在“Solution Explorer” ，点击“Form1” 。&nbsp; 在菜单中，选择“View” -&gt; “Code” （或按F7 ，或右键单击“Form1”并选择“View Code” 。&nbsp; 中的代码文件“Form1.cs”将出现在编辑器。&nbsp; 修改代码中的文件“Form1.cs”类似的代码文件中的“CSGL12Example1Form.cs”项目“CSGL12Example1”列入“CSGL12”软件。&nbsp; 特别是，创建一个变量为一个实例类的事件处理程序（例如， “CSGL12MyHandler” ） ，然后添加方法的类实例的事件处理的各种活动的实例“CSGL12Control”的“Form” 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+(14)在Microsoft Visual C# ，编译和执行程序。&nbsp; 如果你想分享的程序，您必须包括两个DLL文件（ “CSGL12DLL.dll”和“CSGL12Control.dll” ）的可执行文件（ *.exe ） 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; ">
+<div style="background-color: #ffffff; border-width: 1px; border-color: #000000; border-style: solid; ">
+<div style="background-color: #ffffff; padding-left: 32px; padding-right: 32px; padding-top: 16px; padding-bottom: 16px; border-color: #000000; ">
+<div style="display: inline; background-color: #ffffff; border-color: #000000; ">
+
+
+<div style="display: inline; background-color: #ffffff; border-color: #000000; ">
+如果你是一个专家C#程序员，那么你可以不必分配DLL文件（ “CSGL12DLL.dll”和“CSGL12Control.dll” ）与您的可执行文件（ *.exe ） 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; border-color: #000000; ">
+复制文件“GL.cs” ， “CSGL12Control.cs” ，并“PrecisionTime.cs”从项目命名“CSGL12DLL”和“CSGL12Control”在“CSGL12”软件的源代码目录您当前的项目。&nbsp; 文件添加“GL.cs” ， “CSGL12Control.cs” ，并“PrecisionTime.cs”到您的项目，使他们直接在编译的程序。&nbsp; 没有提及“CSGL12DLL.dll”和“CSGL12Control.dll”项目。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; border-color: #000000; ">
+看看“CSGL12Example1”项目“CSGL12”软件，并期待在代码文件命名“CSGL12Example1Form.cs”和“CSGL12Example1Form.Designer.cs”看到代码需要创建和初始化一个实例“CSGL12Control”的“Form” 。&nbsp; 添加类似的代码“Form1.cs”和“Form1.Designer.cs”手动创建和初始化一个实例“CSGL12Control”您“Form” 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; border-color: #000000; ">
+这一程序是非常不方便，而且需要专门知识和认真的关注，但由此产生的可执行文件（ *.exe ）将不需要“CSGL12DLL.dll”或“CSGL12Control.dll” 。&nbsp; 这是非常高兴能够分享您的软件的形式，一个可执行文件（ *.exe ） ，而不需要其他文件。</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div style="height: 48px;"></div>
+
+
+<h2 style="display: block; background-color: #ffffff; ">8.3 添加“引用” CSGL12DLL.dll和CSGL12Control.dll</h2>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+这部分包括图像使用Microsoft Visual C# 2008 Express Edition添加“提及” DLL文件CSGL12DLL.dll和CSGL12Control.dll到项目中。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+在菜单中，选择“Project” -&gt; “Add Reference...”&nbsp; 。&nbsp; 或者，右键单击“References”项目“Solution Explorer”小组，并选择“Add Reference...”所示，下面的图片。&nbsp; </div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="adding_references_001.png" id="adding_references_001.png" alt="adding_references_001.png" width="640" height="480" /><br /><div style="display: inline; ">
+<i>上下文菜单的“References”项目“Solution Explorer” ，显示“Add Reference...”选项</i></div>
+</div>
+</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+经过选择“Add Reference...”选项，会出现一个对话框命名“Add Reference”将会出现。&nbsp; 在此对话框中，选择“Browse”标签，并选择DLL档案“CSGL12DLL.dll”和“CSGL12Control.dll”所示，下面的图片，然后按下按钮“OK” 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="adding_references_002.png" id="adding_references_002.png" alt="adding_references_002.png" width="640" height="480" /><br /><div style="display: inline; ">
+<i>该“Browse”标签“Add Reference”对话框中，与DLL档案“CSGL12DLL.dll”和“CSGL12Control.dll”同时选中</i></div>
+</div>
+</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+在按下按钮“OK” ，该“Add Reference”对话框就会消失，而且DLL档案“CSGL12DLL.dll”和“CSGL12Control.dll”将会出现在“References”科在“Solution Explorer”所示，下面的图表。</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="adding_references_003.png" id="adding_references_003.png" alt="adding_references_003.png" width="640" height="480" /><br /><div style="display: inline; ">
+<i>该DLL档案“CSGL12DLL.dll”和“CSGL12Control.dll”在“References”科在“Solution Explorer”</i></div>
+</div>
+</div>
+
+
+
+
+<div style="height: 48px;"></div>
+
+
+<h2 style="display: block; background-color: #ffffff; ">8.4 添加CSGL12Control的Toolbox在Microsoft Visual C# 2008 Express Edition</h2>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+这部分包括图像使用Microsoft Visual C# 2008 Express Edition添加CSGL12Control的“Toolbox”这样一个人可以方便地添加实例CSGL12Control到“Form”在“Designer” （ Shift+F7默认情况下） 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+在菜单中，选择“View” -&gt; “Toolbox” 。&nbsp; 在“Toolbox” ，去节命名“General”所示，下面的图片。</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="adding_control_to_toolbox_001.png" id="adding_control_to_toolbox_001.png" alt="adding_control_to_toolbox_001.png" width="640" height="587" /><br /><div style="display: inline; ">
+<i>该“General”部分“Toolbox”</i></div>
+</div>
+</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+右键单击内的任何地方“Toolbox” 。&nbsp; 选择选项“Choose Items...”在出现的上下文菜单中所示，下面的图片。</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="adding_control_to_toolbox_002.png" id="adding_control_to_toolbox_002.png" alt="adding_control_to_toolbox_002.png" width="640" height="387" /><br /><div style="display: inline; ">
+<i>选择“Choose Items...”在上下文菜单的“Toolbox”</i></div>
+</div>
+</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+另外，在菜单中，选择选择“Tools” -&gt; “Choose Toolbox Items...”&nbsp; 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该“Choose Toolbox Items”对话框中应该会出现，显示在下面的图片。</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="adding_control_to_toolbox_003.png" id="adding_control_to_toolbox_003.png" alt="adding_control_to_toolbox_003.png" width="640" height="426" /><br /><div style="display: inline; ">
+<i>对话框中的“Choose Toolbox Items”</i></div>
+</div>
+</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+在“Choose Toolbox Items”对话框中，按下“Browse”按钮。&nbsp; 在“Open”对话框中，选择DLL文件“CSGL12Control.dll”所示，下面的图片，然后按“OK”按钮。&nbsp; </div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="adding_control_to_toolbox_004.png" id="adding_control_to_toolbox_004.png" alt="adding_control_to_toolbox_004.png" width="640" height="478" /><br /><div style="display: inline; ">
+<i>该“Open”对话框中，与DLL文件“CSGL12Control.dll”选定</i></div>
+</div>
+</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+项目的“CSGL12Control”现在应该出现在“Choose Toolbox Items”对话框所示，下面的图片。&nbsp; 按“OK”按钮。</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="adding_control_to_toolbox_005.png" id="adding_control_to_toolbox_005.png" alt="adding_control_to_toolbox_005.png" width="640" height="439" /><br /><div style="display: inline; ">
+<i>该“CSGL12Control”项目现在出现在“Choose Toolbox Items”对话框</i></div>
+</div>
+</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+项目的“CSGL12Control”现在应该出现在“Toolbox”所示，下面的图片。&nbsp; </div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="adding_control_to_toolbox_006.png" id="adding_control_to_toolbox_006.png" alt="adding_control_to_toolbox_006.png" width="640" height="332" /><br /><div style="display: inline; ">
+<i>该“CSGL12Control”项目现在出现在“Toolbox”</i></div>
+</div>
+</div>
+
+
+
+
+<div style="height: 48px;"></div>
+
+
+<h2 style="display: block; background-color: #ffffff; ">8.5 添加CSGL12Control到“Form”使用“Toolbox”</h2>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+这部分包括图像使用Microsoft Visual C# 2008 Express Edition增加的一个实例CSGL12Control到“Form”使用“Toolbox” 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+在菜单中，选择“View” -&gt; “Designer” （ Shift+F7默认情况下） 。&nbsp; 或者，双击“Form*.cs”档案“Solution Explorer” 。&nbsp; 或右键单击一个“Form*.cs”文件中“Solution Explorer”并选择“View Designer” 。&nbsp; 使用这三个方法， “Designer”窗口为“Form”应该会出现。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+在菜单中，选择“View” -&gt; “Toolbox” 。&nbsp; 在“Toolbox” ，去节命名“General” 。&nbsp; 一个项目名为“CSGL12Control”应该会出现有所示，下面的图片。&nbsp; </div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="adding_control_to_toolbox_006.png" id="adding_control_to_toolbox_006.png" alt="adding_control_to_toolbox_006.png" width="640" height="332" /><br /><div style="display: inline; ">
+<i>该“CSGL12Control”应该已经在“Toolbox”</i></div>
+</div>
+</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+使用光标，按一下该项目命名为“CSGL12Control”和将其拖放到“Form”在“Designer” 。&nbsp; 一个实例“CSGL12Control”应该出现在“Form”显示下面的图片。&nbsp; </div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="adding_control_to_toolbox_007.png" id="adding_control_to_toolbox_007.png" alt="adding_control_to_toolbox_007.png" width="640" height="490" /><br /><div style="display: inline; ">
+<i>一个实例“CSGL12Control”的“Form”在“Designer”</i></div>
+</div>
+</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+在“Form” “Designer”认为，此举的实例“CSGL12Control”的“Form”和调整其宽度和高度。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+点击实例“CSGL12Control”的“Form”以选中它。&nbsp; 然后，在“Properties”小组，确定了“Anchor”价值包括“Top, Bottom, Left, Right”这样的规模“CSGL12Control”将改变响应变化的程序窗口的大小。&nbsp; 您也可以改变的变量名称（即价值“(Name)” ）为实例“CSGL12Control”自动默认的（例如， “csgL12Control” ）的东西适合您的代码（例如， “mCSGL12Control”或“mCSGL12Control1”等） 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+以下图片显示的“Form” “Designer”观点和“Properties”小组。</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="CSGL12Control_ScreenImage.png" id="CSGL12Control_ScreenImage.png" alt="CSGL12Control_ScreenImage.png" width="640" height="464" /><br /><div style="display: inline; ">
+<i>一个实例CSGL12Control的Form在Designer ，和“Properties小组</i></div>
+</div>
+</div>
+
+
+
+
+<div style="height: 96px;"></div>
+
+
+<h1 style="display: block; background-color: #ffffff; ">9. 用两个实例“CSGL12Control”的System.Windows.Forms.Form</h1>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+下图显示一个例子，说明两个实例“CSGL12Control”可以被添加到System.Windows.Forms.Form做绘图OpenGL程序中。</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display:inline; ">
+<div style="margin-left:auto; margin-right:auto; width: 640px; max-width: 800px; ">
+<img src="csgl12_windows_form_program_with_two_controls.png" id="csgl12_windows_form_program_with_two_controls.png" alt="csgl12_windows_form_program_with_two_controls.png" width="640" height="420" /><br /><div style="display: inline; ">
+<i>程序使用的两个实例“CSGL12Control”的System.Windows.Forms.Form</i></div>
+</div>
+</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+按照指示在上一节中添加一个实例“CSGL12Control”到“Form” 。&nbsp; 然后，只需拖动一个第二个实例“CSGL12Control”从“Toolbox”的“Form”添加第二“CSGL12Control” 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+每个实例“CSGL12Control”将拥有自己的变量名。&nbsp; 每个实例“CSGL12Control”可以有自己的相关的事件处理程序类，也可以使用不同情况下的一个单一的处理类类型。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+研究项目的例子，以了解如何“CSGL12Example2”两个实例“CSGL12Control”可以有自己的事件发送到两个不同的情况下的自定义事件处理类具有独特OpenGL绘图功能。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+示例程序“CSGL12Example2”了每个实例“CSGL12Control”在“SplitContainer” “Control” ，只需证明的方式之一，这些实例“CSGL12Control”都可以使用。&nbsp; 然而，情况不是“CSGL12Control”可以付诸直接的“Form” 。&nbsp; </div>
+
+
+
+
+<div style="height: 96px;"></div>
+
+
+<h1 style="display: block; background-color: #ffffff; ">10. 例如C#代码“Form”同一个实例CSGL12Control</h1>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+以下是完整的C#代码档案中所包含“CSGL12Example1Form.cs” ，这是部分例子程序“CSGL12Example1” 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+此代码是这里提出一个简单的例子，说明一个实例CSGL12Control可以创建和使用的“Form” 。</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="background-color: #ffffff; font-family: 'Courier New',courier,monospace,arial,helvetica,sans-serif; white-space: nowrap; padding-left: 64px; padding-right: 0px; padding-top: 32px; padding-bottom: 32px; border-width: 1px; border-color: #000000; border-style: solid; ">
+<span style="color: #0000ff;">using</span>&nbsp;System;<br />
+<span style="color: #0000ff;">using</span>&nbsp;System.Collections.Generic;<br />
+<span style="color: #0000ff;">using</span>&nbsp;System.ComponentModel;<br />
+<span style="color: #0000ff;">using</span>&nbsp;System.Data;<br />
+<span style="color: #0000ff;">using</span>&nbsp;System.Drawing;<br />
+<span style="color: #0000ff;">using</span>&nbsp;System.Linq;<br />
+<span style="color: #0000ff;">using</span>&nbsp;System.Text;<br />
+<span style="color: #0000ff;">using</span>&nbsp;System.Windows.Forms;<br />
+<br />
+<span style="color: #0000ff;">using</span>&nbsp;CSGL12;<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<span style="color: #0000ff;">namespace</span>&nbsp;CSGL12Example1<br />
+{<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">public</span>&nbsp;<span style="color: #0000ff;">partial</span>&nbsp;<span style="color: #0000ff;">class</span>&nbsp;CSGL12Example1Form&nbsp;:&nbsp;Form<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">public</span>&nbsp;CSGL12Example1Handler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mCSGL12Example1Handler;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;System.Windows.Forms.Timer&nbsp;&nbsp;mTimer;<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">public</span>&nbsp;CSGL12Example1Form()<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;InitializeComponent();<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mCSGL12Example1Handler&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;CSGL12Example1Handler();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mCSGL12Control1.OpenGLStarted&nbsp;+=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;CSGL12Control.DelegateOpenGLStarted(&nbsp;mCSGL12Example1Handler.OpenGLStarted&nbsp;);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mCSGL12Control1.KeyDown&nbsp;+=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;KeyEventHandler(mCSGL12Example1Handler.KeyDown);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mCSGL12Control1.KeyUp&nbsp;+=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;KeyEventHandler(mCSGL12Example1Handler.KeyUp);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mCSGL12Control1.MouseDown&nbsp;+=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;MouseEventHandler(mCSGL12Example1Handler.MouseDown);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mCSGL12Control1.MouseUp&nbsp;+=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;MouseEventHandler(mCSGL12Example1Handler.MouseUp);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mCSGL12Control1.MouseMove&nbsp;+=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;MouseEventHandler(mCSGL12Example1Handler.MouseMove);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mCSGL12Control1.MouseWheel&nbsp;+=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;MouseEventHandler(mCSGL12Example1Handler.MouseWheel);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mCSGL12Control1.Paint&nbsp;+=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;PaintEventHandler(mCSGL12Example1Handler.Paint);<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Use&nbsp;a&nbsp;timer&nbsp;to&nbsp;trigger&nbsp;drawing&nbsp;at&nbsp;the&nbsp;desired&nbsp;frame&nbsp;rate.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Windows&nbsp;timers&nbsp;are&nbsp;not&nbsp;very&nbsp;precise.&nbsp;&nbsp;Also,&nbsp;if&nbsp;we&nbsp;call&nbsp;wglSwapIntervalEXT(1)<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;and&nbsp;we&nbsp;specify&nbsp;in&nbsp;the&nbsp;global&nbsp;OpenGL&nbsp;control&nbsp;panel&nbsp;that&nbsp;OpenGL&nbsp;drawing<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;should&nbsp;wait&nbsp;for&nbsp;vertical&nbsp;sync&nbsp;(vsync)&nbsp;of&nbsp;the&nbsp;display,&nbsp;then&nbsp;the&nbsp;frame<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;rate&nbsp;would&nbsp;be&nbsp;limited&nbsp;to&nbsp;60&nbsp;frames/second&nbsp;or&nbsp;75&nbsp;frames/second,&nbsp;for&nbsp;example,<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;and&nbsp;our&nbsp;program&nbsp;would&nbsp;have&nbsp;to&nbsp;draw&nbsp;each&nbsp;frame&nbsp;in&nbsp;less&nbsp;than&nbsp;1/60&nbsp;seconds<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;(16.6&nbsp;milliseconds)&nbsp;or&nbsp;less&nbsp;than&nbsp;1/75&nbsp;seconds&nbsp;(13.3&nbsp;milliseconds),<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;otherwise&nbsp;the&nbsp;drawn&nbsp;frame&nbsp;would&nbsp;be&nbsp;forced&nbsp;to&nbsp;wait&nbsp;one&nbsp;or&nbsp;more&nbsp;full<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;frame&nbsp;durations&nbsp;before&nbsp;appearing&nbsp;on&nbsp;the&nbsp;screen.&nbsp;&nbsp;Therefore,&nbsp;it&nbsp;would<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;be&nbsp;best&nbsp;to&nbsp;have&nbsp;the&nbsp;timer&nbsp;interval&nbsp;somewhat&nbsp;shorter&nbsp;than&nbsp;a&nbsp;full&nbsp;frame<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;interval,&nbsp;to&nbsp;ensure&nbsp;that&nbsp;even&nbsp;if&nbsp;there&nbsp;is&nbsp;a&nbsp;slight&nbsp;delay&nbsp;in&nbsp;responding<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;to&nbsp;the&nbsp;timer&nbsp;event&nbsp;we&nbsp;will&nbsp;have&nbsp;at&nbsp;least&nbsp;one&nbsp;timer&nbsp;event&nbsp;per&nbsp;display<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;frame&nbsp;interval.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Theoretically,&nbsp;a&nbsp;timer&nbsp;interval&nbsp;of&nbsp;16&nbsp;milliseconds&nbsp;would&nbsp;be&nbsp;short&nbsp;enough<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;to&nbsp;sustain&nbsp;a&nbsp;frame&nbsp;rate&nbsp;of&nbsp;62.5&nbsp;frames/second,&nbsp;and&nbsp;would&nbsp;seemingly&nbsp;have<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;a&nbsp;corresponding&nbsp;rate&nbsp;sufficient&nbsp;to&nbsp;sustain&nbsp;60&nbsp;frames/second&nbsp;in&nbsp;the&nbsp;case<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;of&nbsp;a&nbsp;vertical-sync&nbsp;limited&nbsp;drawing&nbsp;rate&nbsp;for&nbsp;OpenGL.&nbsp;&nbsp;However,&nbsp;in&nbsp;simple<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;experiments&nbsp;on&nbsp;a&nbsp;system&nbsp;with&nbsp;a&nbsp;2.5&nbsp;GHz&nbsp;Core&nbsp;2&nbsp;Duo&nbsp;CPU&nbsp;with&nbsp;an&nbsp;nVidia<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;GeForce&nbsp;8600M&nbsp;GS&nbsp;with&nbsp;512&nbsp;MB,&nbsp;I&nbsp;found&nbsp;that&nbsp;a&nbsp;16-millisecond&nbsp;Windows<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;timer&nbsp;interval&nbsp;results&nbsp;in&nbsp;a&nbsp;33&nbsp;frames/second&nbsp;OpenGL&nbsp;frame&nbsp;rate&nbsp;(where<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;vertical-sync&nbsp;locking&nbsp;is&nbsp;enabled,&nbsp;and&nbsp;the&nbsp;display&nbsp;refresh&nbsp;rate&nbsp;is<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;60&nbsp;frames/second).&nbsp;&nbsp;So,&nbsp;despite&nbsp;theoretically&nbsp;being&nbsp;slightly&nbsp;more&nbsp;rapid<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;than&nbsp;necessary&nbsp;to&nbsp;maintain&nbsp;a&nbsp;60&nbsp;frames/second&nbsp;drawing&nbsp;rate,&nbsp;a&nbsp;Windows<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;timer&nbsp;with&nbsp;an&nbsp;interval&nbsp;of&nbsp;16-milliseconds&nbsp;isn't&nbsp;quite&nbsp;rapid&nbsp;enough&nbsp;to<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;ensure&nbsp;drawing&nbsp;soon&nbsp;enough&nbsp;to&nbsp;be&nbsp;ready&nbsp;for&nbsp;each&nbsp;display&nbsp;refresh;&nbsp;hence<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;the&nbsp;rather&nbsp;significantly&nbsp;lower&nbsp;than&nbsp;desired&nbsp;frame&nbsp;rate&nbsp;of&nbsp;33&nbsp;frames/second.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Here&nbsp;are&nbsp;the&nbsp;OpenGL&nbsp;drawing&nbsp;frame&nbsp;rates&nbsp;(limited&nbsp;to&nbsp;60&nbsp;Hz&nbsp;vertical&nbsp;sync)<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;I&nbsp;observed&nbsp;on&nbsp;a&nbsp;particular&nbsp;computer&nbsp;for&nbsp;particular&nbsp;Windows&nbsp;timer&nbsp;intervals:<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;&nbsp;&nbsp;&nbsp;18-millisecond&nbsp;timer&nbsp;interval&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;31&nbsp;frames/second&nbsp;OpenGL&nbsp;drawing<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;&nbsp;&nbsp;&nbsp;17-millisecond&nbsp;timer&nbsp;interval&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;31&nbsp;frames/second&nbsp;OpenGL&nbsp;drawing<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;&nbsp;&nbsp;&nbsp;16-millisecond&nbsp;timer&nbsp;interval&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;33&nbsp;frames/second&nbsp;OpenGL&nbsp;drawing<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;&nbsp;&nbsp;&nbsp;15-millisecond&nbsp;timer&nbsp;interval&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;60&nbsp;frames/second&nbsp;OpenGL&nbsp;drawing<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;&nbsp;&nbsp;&nbsp;14-millisecond&nbsp;timer&nbsp;interval&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;60&nbsp;frames/second&nbsp;OpenGL&nbsp;drawing<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;So,&nbsp;it&nbsp;seems&nbsp;like&nbsp;choosing&nbsp;a&nbsp;Windows&nbsp;timer&nbsp;interval&nbsp;only&nbsp;a&nbsp;couple&nbsp;of<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;milliseconds&nbsp;shorter&nbsp;than&nbsp;the&nbsp;theoretical&nbsp;16.6&nbsp;millisecond&nbsp;interval<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;corresponding&nbsp;to&nbsp;a&nbsp;60&nbsp;frames/second&nbsp;rate&nbsp;is&nbsp;enough&nbsp;for&nbsp;this&nbsp;program&nbsp;to<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;submit&nbsp;each&nbsp;new&nbsp;frame&nbsp;in&nbsp;time&nbsp;for&nbsp;the&nbsp;next&nbsp;display&nbsp;refresh.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;However,&nbsp;computers&nbsp;with&nbsp;slower&nbsp;CPUs&nbsp;or&nbsp;slower&nbsp;GPUs&nbsp;might&nbsp;benefit&nbsp;from<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;an&nbsp;even&nbsp;shorter&nbsp;Windows&nbsp;timer&nbsp;interval,&nbsp;to&nbsp;ensure&nbsp;that&nbsp;drawing&nbsp;will<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;happen&nbsp;soon&nbsp;enough&nbsp;for&nbsp;the&nbsp;next&nbsp;display&nbsp;refresh.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Some&nbsp;displays&nbsp;are&nbsp;set&nbsp;to&nbsp;refresh&nbsp;at&nbsp;75&nbsp;frames/second,&nbsp;which&nbsp;corresponds<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;to&nbsp;a&nbsp;frame&nbsp;duration&nbsp;of&nbsp;13.3&nbsp;milliseconds.&nbsp;&nbsp;We&nbsp;will&nbsp;aim&nbsp;for&nbsp;this&nbsp;drawing<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;rate,&nbsp;and&nbsp;we&nbsp;will&nbsp;subtract&nbsp;a&nbsp;few&nbsp;milliseconds&nbsp;from&nbsp;the&nbsp;Windows&nbsp;timer<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;interval&nbsp;to&nbsp;ensure&nbsp;that&nbsp;we&nbsp;receive&nbsp;and&nbsp;process&nbsp;the&nbsp;timer&nbsp;event&nbsp;soon<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;enough&nbsp;to&nbsp;submit&nbsp;the&nbsp;frame&nbsp;in&nbsp;time&nbsp;for&nbsp;the&nbsp;next&nbsp;display&nbsp;refresh.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Meanwhile,&nbsp;we&nbsp;will&nbsp;choose&nbsp;the&nbsp;Windows&nbsp;timer&nbsp;interval&nbsp;such&nbsp;that&nbsp;it&nbsp;isn't<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;absurdly&nbsp;short,&nbsp;lest&nbsp;future&nbsp;faster&nbsp;computers&nbsp;actually&nbsp;manage&nbsp;to&nbsp;draw<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;at&nbsp;that&nbsp;wasteful&nbsp;rate.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Choosing&nbsp;a&nbsp;Windows&nbsp;timer&nbsp;interval&nbsp;of&nbsp;10&nbsp;milliseconds&nbsp;seems&nbsp;like&nbsp;it&nbsp;will<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;reliably&nbsp;be&nbsp;able&nbsp;to&nbsp;trigger&nbsp;OpenGL&nbsp;frame&nbsp;drawing&nbsp;in&nbsp;time&nbsp;to&nbsp;keep&nbsp;up&nbsp;with<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;a&nbsp;75&nbsp;frames/second&nbsp;display&nbsp;(13.3&nbsp;millisecond&nbsp;frame&nbsp;duration),&nbsp;while<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;only&nbsp;causing&nbsp;the&nbsp;OpenGL&nbsp;drawing&nbsp;to&nbsp;happen&nbsp;at&nbsp;a&nbsp;maximum&nbsp;rate&nbsp;of<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;100&nbsp;frames/second&nbsp;in&nbsp;the&nbsp;unlikely&nbsp;scenario&nbsp;of&nbsp;a&nbsp;very&nbsp;fast&nbsp;computer<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;actually&nbsp;being&nbsp;able&nbsp;to&nbsp;draw&nbsp;frames&nbsp;at&nbsp;that&nbsp;rate&nbsp;(given&nbsp;the&nbsp;overhead&nbsp;of<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;C#,&nbsp;etc).<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mTimer&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;System.Windows.Forms.Timer();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mTimer.Interval&nbsp;=&nbsp;<span style="color: #801000;">10</span>;&nbsp;<span style="color: #008000;">//&nbsp;10-millisecond&nbsp;interval<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mTimer.Tick&nbsp;+=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;EventHandler(PrivateTimerTickEventHandler);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mTimer.Start();<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Set&nbsp;focus&nbsp;to&nbsp;a&nbsp;control&nbsp;so&nbsp;that&nbsp;it&nbsp;can&nbsp;immediately&nbsp;accept&nbsp;input<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mCSGL12Control1.Focus();<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Also,&nbsp;whenever&nbsp;the&nbsp;form&nbsp;becomes&nbsp;activated,&nbsp;set&nbsp;focus&nbsp;to&nbsp;the&nbsp;main<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;control&nbsp;on&nbsp;the&nbsp;form.&nbsp;&nbsp;The&nbsp;following&nbsp;sets&nbsp;up&nbsp;an&nbsp;event&nbsp;handler&nbsp;for<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;that&nbsp;purpose.<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.Activated&nbsp;+=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;EventHandler(PrivateActivatedEventHandler);<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;We&nbsp;want&nbsp;to&nbsp;preview&nbsp;dialog&nbsp;keys&nbsp;(most&nbsp;importantly,&nbsp;the&nbsp;cursor<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;keys:&nbsp;up,&nbsp;down,&nbsp;right,&nbsp;left)&nbsp;so&nbsp;we&nbsp;can&nbsp;forward&nbsp;such&nbsp;events&nbsp;to<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;the&nbsp;appropriate&nbsp;child&nbsp;control.<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.KeyPreview&nbsp;=&nbsp;<span style="color: #0000ff;">true</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">void</span>&nbsp;PrivateTimerTickEventHandler(<span style="color: #0000ff;">object</span>&nbsp;sender,&nbsp;EventArgs&nbsp;e)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">false</span>&nbsp;==&nbsp;DesignMode)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mCSGL12Control1.Invalidate();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;<span style="color: #0000ff;">void</span>&nbsp;PrivateActivatedEventHandler(<span style="color: #0000ff;">object</span>&nbsp;sender,&nbsp;EventArgs&nbsp;e)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;When&nbsp;this&nbsp;form&nbsp;becomes&nbsp;activated,&nbsp;after&nbsp;some&nbsp;time&nbsp;of&nbsp;not<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;being&nbsp;active,&nbsp;set&nbsp;input&nbsp;focus&nbsp;to&nbsp;a&nbsp;GL&nbsp;control&nbsp;on&nbsp;the&nbsp;form.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">false</span>&nbsp;==&nbsp;mCSGL12Control1.Focused)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mCSGL12Control1.Focus();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Cursor&nbsp;keys&nbsp;(up,down,left,right)&nbsp;need&nbsp;to&nbsp;be&nbsp;specially&nbsp;captured<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;and&nbsp;forwarded&nbsp;to&nbsp;the&nbsp;control.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;CAUTION:&nbsp;The&nbsp;KeyPreview&nbsp;property&nbsp;of&nbsp;this&nbsp;Form&nbsp;must&nbsp;be&nbsp;set&nbsp;to&nbsp;'true'<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;for&nbsp;the&nbsp;following&nbsp;method&nbsp;to&nbsp;be&nbsp;called.<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">protected</span>&nbsp;<span style="color: #0000ff;">override</span>&nbsp;<span style="color: #0000ff;">bool</span>&nbsp;ProcessDialogKey(Keys&nbsp;keyData)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(keyData&nbsp;==&nbsp;Keys.Up)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&brvbar;&brvbar;&nbsp;(keyData&nbsp;==&nbsp;Keys.Down)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&brvbar;&brvbar;&nbsp;(keyData&nbsp;==&nbsp;Keys.Left)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&brvbar;&brvbar;&nbsp;(keyData&nbsp;==&nbsp;Keys.Right)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KeyEventArgs&nbsp;e&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;KeyEventArgs(keyData);<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">true</span>&nbsp;==&nbsp;mCSGL12Control1.Focused)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mCSGL12Example1Handler.KeyDown(mCSGL12Control1,&nbsp;e);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">else</span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;The&nbsp;CSGL12Control&nbsp;does&nbsp;not&nbsp;have&nbsp;focus.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Let's&nbsp;simply&nbsp;drop&nbsp;the&nbsp;dialog&nbsp;key&nbsp;event.&nbsp;&nbsp;The&nbsp;user<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;may&nbsp;have&nbsp;focus&nbsp;on&nbsp;a&nbsp;different&nbsp;control.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">return</span>&nbsp;(<span style="color: #0000ff;">true</span>);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">return</span>&nbsp;<span style="color: #0000ff;">base</span>.ProcessDialogKey(keyData);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+}</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+请注意，该成员变量“mCSGL12Example1Handler”宣布提及的一个实例class命名“CSGL12Example1Handler” 。&nbsp; 这一类将在随后的叙述部分。&nbsp; 请注意，构造“CSGL12Example1Form”增加了方法的实例“CSGL12Example1Handler”的“multicast delegates”相关的各种活动所产生的一个实例“CSGL12Control” 。&nbsp; 这意味着当实例“CSGL12Control”产生的各种事件，这些事件会导致各种方法的实例“CSGL12Example1Handler” （即“mCSGL12Example1Handler” ）援引。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+请注意，该成员变量“mTimer”宣布提及的一个实例class命名“System.Windows.Forms.Timer” 。&nbsp; 这个对象是用来调用一个函数命名“PrivateTimerTickEventHandler”每10毫秒。&nbsp; 命名“PrivateTimerTickEventHandler”的功能要求的一种方法的实例“CSGL12Control” （即“mCSGL12Control1” ）的原因“Control”利用本身。&nbsp; 这是怎样的一个实例动画“CSGL12Control”可以在近似率。</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+只有部分的定义“class CSGL12Example1Form”出现在C#档名为“CSGL12Example1Form.cs” 。&nbsp; 另一部分的定义“class CSGL12Example1Form”出现在C#档名为“CSGL12Example1Form.Designer.cs” 。&nbsp; 虽然文件名称相匹配的模式“*.Designer.cs”通常创建和修改只能由图形“Form Designer”窗口的C#编辑器，还可以创建和修改等C#文件使用文本编辑器。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+以下是完整的C#代码档案中所包含“CSGL12Example1Form.Designer.cs” ，这是部分例子程序“CSGL12Example1” 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="background-color: #ffffff; font-family: 'Courier New',courier,monospace,arial,helvetica,sans-serif; white-space: nowrap; padding-left: 64px; padding-right: 0px; padding-top: 32px; padding-bottom: 32px; border-width: 1px; border-color: #000000; border-style: solid; ">
+<span style="color: #0000ff;">namespace</span>&nbsp;CSGL12Example1<br />
+{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">partial</span>&nbsp;<span style="color: #0000ff;">class</span>&nbsp;CSGL12Example1Form<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">///&nbsp;&lt;summary&gt;<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">///&nbsp;Required&nbsp;designer&nbsp;variable.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">///&nbsp;&lt;/summary&gt;<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;System.ComponentModel.IContainer&nbsp;components&nbsp;=&nbsp;<span style="color: #0000ff;">null</span>;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">///&nbsp;&lt;summary&gt;<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">///&nbsp;Clean&nbsp;up&nbsp;any&nbsp;resources&nbsp;being&nbsp;used.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">///&nbsp;&lt;/summary&gt;<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">///&nbsp;&lt;param&nbsp;name=&quot;disposing&quot;&gt;true&nbsp;if&nbsp;managed&nbsp;resources&nbsp;should&nbsp;be&nbsp;disposed;&nbsp;otherwise,&nbsp;false.&lt;/param&gt;<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">protected</span>&nbsp;<span style="color: #0000ff;">override</span>&nbsp;<span style="color: #0000ff;">void</span>&nbsp;Dispose(<span style="color: #0000ff;">bool</span>&nbsp;disposing)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(disposing&nbsp;&amp;&amp;&nbsp;(components&nbsp;!=&nbsp;<span style="color: #0000ff;">null</span>))<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;components.Dispose();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">base</span>.Dispose(disposing);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">#region</span>&nbsp;Windows&nbsp;Form&nbsp;Designer&nbsp;generated&nbsp;code<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">///&nbsp;&lt;summary&gt;<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">///&nbsp;Required&nbsp;method&nbsp;for&nbsp;Designer&nbsp;support&nbsp;-&nbsp;do&nbsp;not&nbsp;modify<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">///&nbsp;the&nbsp;contents&nbsp;of&nbsp;this&nbsp;method&nbsp;with&nbsp;the&nbsp;code&nbsp;editor.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">///&nbsp;&lt;/summary&gt;<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;<span style="color: #0000ff;">void</span>&nbsp;InitializeComponent()<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.mCSGL12Control1&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;CSGL12.CSGL12Control();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.SuspendLayout();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;mCSGL12Control1<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.mCSGL12Control1.Anchor&nbsp;=&nbsp;((System.Windows.Forms.AnchorStyles)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((((System.Windows.Forms.AnchorStyles.Top<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&brvbar;&nbsp;System.Windows.Forms.AnchorStyles.Bottom)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&brvbar;&nbsp;System.Windows.Forms.AnchorStyles.Left)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&brvbar;&nbsp;System.Windows.Forms.AnchorStyles.Right)));<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.mCSGL12Control1.BackColor&nbsp;=&nbsp;System.Drawing.SystemColors.Control;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.mCSGL12Control1.Location&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;System.Drawing.Point(<span style="color: #801000;">12</span>,&nbsp;<span style="color: #801000;">12</span>);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.mCSGL12Control1.Name&nbsp;=&nbsp;&quot;mCSGL12Control1&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.mCSGL12Control1.Size&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;System.Drawing.Size(<span style="color: #801000;">640</span>,&nbsp;<span style="color: #801000;">480</span>);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.mCSGL12Control1.TabIndex&nbsp;=&nbsp;<span style="color: #801000;">0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.mCSGL12Control1.Text&nbsp;=&nbsp;&quot;CSGL12Control1&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;CSGL12Example1Form<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.AutoScaleDimensions&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;System.Drawing.SizeF(<span style="color: #801000;">6</span>F,&nbsp;<span style="color: #801000;">13</span>F);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.AutoScaleMode&nbsp;=&nbsp;System.Windows.Forms.AutoScaleMode.Font;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.ClientSize&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;System.Drawing.Size(<span style="color: #801000;">664</span>,&nbsp;<span style="color: #801000;">504</span>);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.Controls.Add(<span style="color: #0000ff;">this</span>.mCSGL12Control1);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.Name&nbsp;=&nbsp;&quot;CSGL12Example1Form&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.Text&nbsp;=&nbsp;&quot;CSGL12Example1&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">this</span>.ResumeLayout(<span style="color: #0000ff;">false</span>);<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">#endregion</span><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;CSGL12.CSGL12Control&nbsp;mCSGL12Control1;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+}</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+请注意，此C#代码中包含的声明变量“mCSGL12Control1” ，其中提到的一个实例“class CSGL12.CSGL12Control” （即“class CSGL12Control”在“namespace CSGL12” ） 。&nbsp; 这种情况下创建和配置的功能“InitializeComponent” 。&nbsp; </div>
+
+
+
+
+<div style="height: 96px;"></div>
+
+
+<h1 style="display: block; background-color: #ffffff; ">11. 处理事件所援引的一个实例CSGL12Control</h1>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+上一节显示C#代码“Form”所载的一个实例“CSGL12Control” 。&nbsp; 该C#代码添加方法的“class”命名“CSGL12Example1Handler”作为事件处理的各种活动所产生的实例“CSGL12Control” 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+下面列出了有趣的活动的“CSGL12Control” ，和“delegate”类型与这些事件：</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="background-color: #ffffff; font-family: 'Courier New',courier,monospace,arial,helvetica,sans-serif; white-space: nowrap; padding-left: 64px; padding-right: 0px; padding-top: 32px; padding-bottom: 32px; border-width: 1px; border-color: #000000; border-style: solid; ">
+OpenGLStarted&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSGL12Control.DelegateOpenGLStarted<br />
+<br />
+KeyDown&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.Windows.Forms.KeyEventHandler<br />
+KeyUp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.Windows.Forms.KeyEventHandler<br />
+<br />
+MouseDown&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.Windows.Forms.MouseEventHandler<br />
+MouseUp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.Windows.Forms.MouseEventHandler<br />
+MouseMove&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.Windows.Forms.MouseEventHandler<br />
+MouseWheel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.Windows.Forms.MouseEventHandler<br />
+<br />
+Paint&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.Windows.Forms.PaintEventHandler</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+只有“OpenGLStarted”事件是一个事件类型所特有的“CSGL12Control” 。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+所有其他活动的标准System.Windows.Forms事件，其事件处理必须有一定的参数（所指定的任何Forms文件） 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该“OpenGLStarted”和“Paint”事件是最重要的事件OpenGL图纸。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该“OpenGLStarted”事件是引用前非常第一“Paint”事件是引用。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+因此， “OpenGLStarted”事件处理程序必须添加到控制<i>前，</i>控制有很好的机会，企图涂料本身，否则一时间，事件将不会收到。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+这一事件仅仅是一个方便，可以忽略不计。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+但是，加入一个处理此事件使得有可能为处理代码做一些一时间初始化这取决于OpenGL正准备使用。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+（ OpenGL不能使用，直至窗口存在和窗口，是随时准备履行其第一油漆。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+因此， “OpenGLStarted”事件零部件程序员从风险企图利用OpenGL太后不久，该程序将启动。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+）这是相当容易购买的逻辑在“Paint”处理做一次性初始化，使用OpenGL背景下“CSGL12Control” 。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该“OpenGLStarted”事件是作为一个提供方便。</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+以下是完整的C#代码档案中所包含“CSGL12Example1Handler.cs” ，这是部分例子程序“CSGL12Example1” 。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+此代码是这里提出一个简单的例子，说明所产生的事件的一个实例“CSGL12Control”可处理提请使用OpenGL 。</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="background-color: #ffffff; font-family: 'Courier New',courier,monospace,arial,helvetica,sans-serif; white-space: nowrap; padding-left: 64px; padding-right: 0px; padding-top: 32px; padding-bottom: 32px; border-width: 1px; border-color: #000000; border-style: solid; ">
+<span style="color: #0000ff;">using</span>&nbsp;System;<br />
+<span style="color: #0000ff;">using</span>&nbsp;System.Collections.Generic;<br />
+<span style="color: #0000ff;">using</span>&nbsp;System.Text;<br />
+<span style="color: #0000ff;">using</span>&nbsp;System.IO;<br />
+<span style="color: #0000ff;">using</span>&nbsp;System.Windows.Forms;<br />
+<span style="color: #0000ff;">using</span>&nbsp;System.Drawing;<br />
+<span style="color: #0000ff;">using</span>&nbsp;System.Drawing.Imaging;<br />
+<br />
+<br />
+<br />
+<br />
+<span style="color: #008000;">//&nbsp;This&nbsp;program&nbsp;requires&nbsp;&quot;references&quot;&nbsp;to&nbsp;the&nbsp;following:<br /></span>
+<span style="color: #008000;">//<br /></span>
+<span style="color: #008000;">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSGL12DLL.dll&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(defines&nbsp;CSGL12.GL)<br /></span>
+<span style="color: #008000;">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSGL12Control.dll&nbsp;&nbsp;&nbsp;(defines&nbsp;CSGL12.CSGL12Control)<br /></span>
+<br />
+<span style="color: #0000ff;">using</span>&nbsp;CSGL12;<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<span style="color: #0000ff;">namespace</span>&nbsp;CSGL12Example1<br />
+{<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">public</span>&nbsp;<span style="color: #0000ff;">class</span>&nbsp;CSGL12Example1Handler<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;Mesh&nbsp;mMesh;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;ShaderProgram&nbsp;mShaderProgram1;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;ShaderProgram&nbsp;mShaderProgram2;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;ShaderProgram&nbsp;mShaderProgram3;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;ShaderProgram&nbsp;mShaderProgram4;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;ShaderProgram&nbsp;mShaderProgramSelected;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;<span style="color: #2b91af;">Bitmap</span>&nbsp;mHUDBitmap;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;Texture&nbsp;mHUDTexture;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;Font&nbsp;mFont1;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;Font&nbsp;mFont2;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;Font&nbsp;mFont3;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;Font&nbsp;mFont4;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;Pen&nbsp;mPen1;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;Brush&nbsp;mBrush1;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;<span style="color: #0000ff;">double</span>&nbsp;mViewDistance&nbsp;=&nbsp;<span style="color: #801000;">800.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;<span style="color: #0000ff;">double</span>&nbsp;mViewAzimuthDegrees&nbsp;=&nbsp;<span style="color: #801000;">0.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;<span style="color: #0000ff;">double</span>&nbsp;mViewAltitudeDegrees&nbsp;=&nbsp;<span style="color: #801000;">0.0</span>;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;<span style="color: #0000ff;">double</span>&nbsp;mViewAzimuthDegreesVelocity&nbsp;=&nbsp;<span style="color: #801000;">9.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;<span style="color: #0000ff;">double</span>&nbsp;mViewAltitudeDegreesVelocity&nbsp;=&nbsp;<span style="color: #801000;">5.0</span>;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;Point&nbsp;mMouseClientPositionStart;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;<span style="color: #0000ff;">double</span>&nbsp;mViewAzimuthDegreesStart&nbsp;=&nbsp;<span style="color: #801000;">0.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">private</span>&nbsp;<span style="color: #0000ff;">double</span>&nbsp;mViewAltitudeDegreesStart&nbsp;=&nbsp;<span style="color: #801000;">0.0</span>;<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">public</span>&nbsp;CSGL12Example1Handler()<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mMesh&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;Mesh();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mShaderProgram1&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;ShaderProgramMandelbrotSet();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mShaderProgram2&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;ShaderProgramWood();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mShaderProgram3&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;ShaderProgramBrick();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mShaderProgram4&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;ShaderProgramCartoon();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mShaderProgramSelected&nbsp;=&nbsp;mShaderProgram1;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mHUDBitmap&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;<span style="color: #2b91af;">Bitmap</span>(<span style="color: #801000;">512</span>,&nbsp;<span style="color: #801000;">512</span>,&nbsp;System.Drawing.Imaging.PixelFormat.Format32bppArgb);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mHUDTexture&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;Texture();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mFont1&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;Font(&quot;Verdana&quot;,&nbsp;<span style="color: #801000;">36.0</span>f);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mFont2&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;Font(&quot;Verdana&quot;,&nbsp;<span style="color: #801000;">24.0</span>f);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mFont3&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;Font(&quot;Courier&nbsp;New&quot;,&nbsp;<span style="color: #801000;">16.0</span>f);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mFont4&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;Font(&quot;Courier&nbsp;New&quot;,&nbsp;<span style="color: #801000;">10.0</span>f);<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mPen1&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;Pen(<span style="color: #2b91af;">Color</span>.Red,&nbsp;<span style="color: #801000;">3.0</span>f);<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mBrush1&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;SolidBrush(<span style="color: #2b91af;">Color</span>.FromArgb(<span style="color: #801000;">64</span>,&nbsp;<span style="color: #801000;">128</span>,&nbsp;<span style="color: #801000;">128</span>,&nbsp;<span style="color: #801000;">140</span>));<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">public</span>&nbsp;<span style="color: #0000ff;">void</span>&nbsp;OpenGLStarted(&nbsp;CSGL12Control&nbsp;csgl12Control&nbsp;)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GL&nbsp;gl&nbsp;=&nbsp;csgl12Control.GetGL();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">null</span>&nbsp;==&nbsp;gl)&nbsp;{&nbsp;<span style="color: #0000ff;">return</span>;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Load&nbsp;shaders&nbsp;and&nbsp;set&nbsp;variables<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">true</span>&nbsp;==&nbsp;gl.bglCreateProgramObjectARB)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">null</span>&nbsp;!=&nbsp;mShaderProgram1)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mShaderProgram1.ShaderProgramCreate(gl);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">null</span>&nbsp;!=&nbsp;mShaderProgram2)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mShaderProgram2.ShaderProgramCreate(gl);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">null</span>&nbsp;!=&nbsp;mShaderProgram3)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mShaderProgram3.ShaderProgramCreate(gl);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">null</span>&nbsp;!=&nbsp;mShaderProgram4)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mShaderProgram4.ShaderProgramCreate(gl);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Create&nbsp;cube&nbsp;mesh<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mMesh&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;Mesh();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mMesh.BuildCube(<span style="color: #801000;">400.0</span>f);<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Create&nbsp;a&nbsp;texture<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mHUDTexture.CreateTextureFromBitmap(gl,&nbsp;mHUDBitmap,&nbsp;<span style="color: #0000ff;">true</span>);<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;To&nbsp;prevent&nbsp;&quot;tearing&quot;&nbsp;(irregular&nbsp;streaks)&nbsp;due&nbsp;to&nbsp;swapping&nbsp;buffers&nbsp;at<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;arbitrary&nbsp;times&nbsp;relative&nbsp;to&nbsp;the&nbsp;vsync&nbsp;times,&nbsp;we&nbsp;indicate&nbsp;that&nbsp;we&nbsp;wish<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;to&nbsp;wait&nbsp;for&nbsp;vsync&nbsp;before&nbsp;swapping&nbsp;buffers.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;This&nbsp;request&nbsp;applies&nbsp;when&nbsp;the&nbsp;display&nbsp;driver&nbsp;control&nbsp;panel&nbsp;--&nbsp;in&nbsp;the<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;OpenGL&nbsp;settings&nbsp;area&nbsp;--&nbsp;is&nbsp;set&nbsp;to&nbsp;let&nbsp;the&nbsp;application&nbsp;decide&nbsp;whether&nbsp;or<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;not&nbsp;to&nbsp;wait&nbsp;for&nbsp;vsync.&nbsp;&nbsp;Otherwise,&nbsp;the&nbsp;driver&nbsp;control&nbsp;panel&nbsp;overrides<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;any&nbsp;request&nbsp;made&nbsp;here.<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">true</span>&nbsp;==&nbsp;gl.bwglSwapIntervalEXT)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.wglSwapIntervalEXT(<span style="color: #801000;">1</span>);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">public</span>&nbsp;<span style="color: #0000ff;">void</span>&nbsp;Paint(<span style="color: #0000ff;">object</span>&nbsp;sender,&nbsp;PaintEventArgs&nbsp;e)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">null</span>&nbsp;==&nbsp;sender)&nbsp;{&nbsp;<span style="color: #0000ff;">return</span>;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">false</span>&nbsp;==&nbsp;(sender&nbsp;<span style="color: #0000ff;">is</span>&nbsp;CSGL12Control))&nbsp;{&nbsp;<span style="color: #0000ff;">return</span>;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSGL12Control&nbsp;csgl12Control&nbsp;=&nbsp;(sender&nbsp;<span style="color: #0000ff;">as</span>&nbsp;CSGL12Control);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GL&nbsp;gl&nbsp;=&nbsp;csgl12Control.GetGL();<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">int</span>&nbsp;clientWidth&nbsp;=&nbsp;csgl12Control.ClientRectangle.Width;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">int</span>&nbsp;clientHeight&nbsp;=&nbsp;csgl12Control.ClientRectangle.Height;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(clientWidth&nbsp;&lt;=&nbsp;<span style="color: #801000;">0</span>)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clientWidth&nbsp;=&nbsp;<span style="color: #801000;">1</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(clientHeight&nbsp;&lt;=&nbsp;<span style="color: #801000;">0</span>)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clientHeight&nbsp;=&nbsp;<span style="color: #801000;">1</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Set&nbsp;the&nbsp;viewport<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.glViewport(<span style="color: #801000;">0</span>,&nbsp;<span style="color: #801000;">0</span>,&nbsp;clientWidth,&nbsp;clientHeight);<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Clear&nbsp;the&nbsp;viewport<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.glClearColor(<span style="color: #801000;">1.0</span>f,&nbsp;<span style="color: #801000;">1.0</span>f,&nbsp;<span style="color: #801000;">1.0</span>f,&nbsp;<span style="color: #801000;">1.0</span>f);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.glClear(GL.GL_COLOR_BUFFER_BIT&nbsp;&brvbar;&nbsp;GL.GL_DEPTH_BUFFER_BIT);<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Basic&nbsp;drawing&nbsp;conditions<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.glEnable(GL.GL_DEPTH_TEST);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.glDepthFunc(GL.GL_LEQUAL);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.glEnable(GL.GL_CULL_FACE);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.glCullFace(GL.GL_BACK);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.glFrontFace(GL.GL_CCW);<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;PROJECTION&nbsp;matrix,&nbsp;typically&nbsp;for&nbsp;perspective&nbsp;correction&nbsp;or&nbsp;orthographic&nbsp;projection<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.glMatrixMode(GL.GL_PROJECTION);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.glLoadIdentity();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">double</span>&nbsp;aspectRatio&nbsp;=&nbsp;<span style="color: #801000;">1.0</span>;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #801000;">0</span>&nbsp;!=&nbsp;clientHeight)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aspectRatio&nbsp;=&nbsp;((<span style="color: #0000ff;">double</span>)(clientWidth)&nbsp;/&nbsp;(<span style="color: #0000ff;">double</span>)(clientHeight));<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">double</span>&nbsp;verticalFieldOfViewAngle&nbsp;=&nbsp;<span style="color: #801000;">60.0</span>;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.gluPerspective<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;verticalFieldOfViewAngle,&nbsp;<span style="color: #008000;">//&nbsp;Field&nbsp;of&nbsp;view&nbsp;angle&nbsp;(Y&nbsp;angle;&nbsp;degrees)<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aspectRatio,&nbsp;<span style="color: #008000;">//&nbsp;width/height<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #801000;">0.1</span>,&nbsp;<span style="color: #008000;">//&nbsp;distance&nbsp;to&nbsp;near&nbsp;clipping&nbsp;plane<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #801000;">64000.0</span>&nbsp;<span style="color: #008000;">//&nbsp;distance&nbsp;to&nbsp;far&nbsp;clipping&nbsp;plane<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;MODELVIEW&nbsp;matrix,&nbsp;typically&nbsp;used&nbsp;to&nbsp;transform&nbsp;individual&nbsp;models<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.glMatrixMode(GL.GL_MODELVIEW);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.glLoadIdentity();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Preserve&nbsp;current&nbsp;matrix&nbsp;for&nbsp;the&nbsp;active&nbsp;matrix&nbsp;stack&nbsp;(in&nbsp;this&nbsp;case&nbsp;the&nbsp;MODELVIEW&nbsp;matrix)<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.glPushMatrix();<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(mViewAltitudeDegreesVelocity&nbsp;!=&nbsp;<span style="color: #801000;">0.0</span>)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(mViewAltitudeDegrees&nbsp;&gt;&nbsp;<span style="color: #801000;">70.0</span>)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAltitudeDegrees&nbsp;=&nbsp;<span style="color: #801000;">70.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAltitudeDegreesVelocity&nbsp;*=&nbsp;<span style="color: #801000;">-1.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">else</span>&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(mViewAltitudeDegrees&nbsp;&lt;&nbsp;<span style="color: #801000;">-70.0</span>)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAltitudeDegrees&nbsp;=&nbsp;<span style="color: #801000;">-70.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAltitudeDegreesVelocity&nbsp;*=&nbsp;<span style="color: #801000;">-1.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAzimuthDegrees&nbsp;+=&nbsp;mViewAzimuthDegreesVelocity&nbsp;*&nbsp;csgl12Control.GetPreviousFrameDurationSeconds();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAltitudeDegrees&nbsp;+=&nbsp;mViewAltitudeDegreesVelocity&nbsp;*&nbsp;csgl12Control.GetPreviousFrameDurationSeconds();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vector3f&nbsp;from&nbsp;=<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">new</span>&nbsp;Vector3f<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<span style="color: #0000ff;">float</span>)(mViewDistance&nbsp;*&nbsp;<span style="color: #2b91af;">Math</span>.Cos(mViewAltitudeDegrees&nbsp;*&nbsp;(<span style="color: #2b91af;">Math</span>.PI&nbsp;/&nbsp;<span style="color: #801000;">180.0</span>))&nbsp;*&nbsp;<span style="color: #2b91af;">Math</span>.Sin(mViewAzimuthDegrees&nbsp;*&nbsp;(<span style="color: #2b91af;">Math</span>.PI&nbsp;/&nbsp;<span style="color: #801000;">180.0</span>))),<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<span style="color: #0000ff;">float</span>)(mViewDistance&nbsp;*&nbsp;<span style="color: #2b91af;">Math</span>.Sin(mViewAltitudeDegrees&nbsp;*&nbsp;(<span style="color: #2b91af;">Math</span>.PI&nbsp;/&nbsp;<span style="color: #801000;">180.0</span>))),<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<span style="color: #0000ff;">float</span>)(mViewDistance&nbsp;*&nbsp;<span style="color: #2b91af;">Math</span>.Cos(mViewAltitudeDegrees&nbsp;*&nbsp;(<span style="color: #2b91af;">Math</span>.PI&nbsp;/&nbsp;<span style="color: #801000;">180.0</span>))&nbsp;*&nbsp;<span style="color: #2b91af;">Math</span>.Cos(mViewAzimuthDegrees&nbsp;*&nbsp;(<span style="color: #2b91af;">Math</span>.PI&nbsp;/&nbsp;<span style="color: #801000;">180.0</span>)))<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vector3f&nbsp;to&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;Vector3f(<span style="color: #801000;">0.0</span>f,&nbsp;<span style="color: #801000;">0.0</span>f,&nbsp;<span style="color: #801000;">0.0</span>f);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vector3f&nbsp;up&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;Vector3f(<span style="color: #801000;">0.0</span>f,&nbsp;<span style="color: #801000;">1.0</span>f,&nbsp;<span style="color: #801000;">0.0</span>f);<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Matrix4x4f&nbsp;camera&nbsp;=&nbsp;Matrix4x4f.LookAt(from,&nbsp;to,&nbsp;up);<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">float</span>[]&nbsp;matrix&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;<span style="color: #0000ff;">float</span>[<span style="color: #801000;">16</span>];<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">0</span>]&nbsp;=&nbsp;camera.m11;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">1</span>]&nbsp;=&nbsp;camera.m21;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">2</span>]&nbsp;=&nbsp;camera.m31;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">3</span>]&nbsp;=&nbsp;<span style="color: #801000;">0.0</span>f;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">4</span>]&nbsp;=&nbsp;camera.m12;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">5</span>]&nbsp;=&nbsp;camera.m22;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">6</span>]&nbsp;=&nbsp;camera.m32;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">7</span>]&nbsp;=&nbsp;<span style="color: #801000;">0.0</span>f;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">8</span>]&nbsp;=&nbsp;camera.m13;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">9</span>]&nbsp;=&nbsp;camera.m23;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">10</span>]&nbsp;=&nbsp;camera.m33;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">11</span>]&nbsp;=&nbsp;<span style="color: #801000;">0.0</span>f;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">12</span>]&nbsp;=&nbsp;camera.m14;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">13</span>]&nbsp;=&nbsp;camera.m24;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">14</span>]&nbsp;=&nbsp;camera.m34;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;matrix[<span style="color: #801000;">15</span>]&nbsp;=&nbsp;<span style="color: #801000;">1.0</span>f;<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.glMultMatrixf(matrix);<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(mShaderProgramSelected&nbsp;!=&nbsp;<span style="color: #0000ff;">null</span>)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mShaderProgramSelected.DemonstrateModificationOfVariables(gl,&nbsp;csgl12Control.GetPreviousFrameStartTimeSeconds(),&nbsp;csgl12Control.GetPreviousFrameDurationSeconds());<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mShaderProgramSelected.Select(gl);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Draw&nbsp;model(s),&nbsp;using&nbsp;active&nbsp;texture&nbsp;or&nbsp;shader<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mMesh.Draw(gl);<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;If&nbsp;we&nbsp;used&nbsp;a&nbsp;shader,&nbsp;disable&nbsp;it&nbsp;now...<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">true</span>&nbsp;==&nbsp;gl.bglUseProgramObjectARB)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ShaderProgram.ShaderProgram_Select(gl,&nbsp;<span style="color: #801000;">0</span>);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Restore&nbsp;the&nbsp;previously-preserved&nbsp;matrix&nbsp;for&nbsp;the&nbsp;active&nbsp;matrix&nbsp;stack&nbsp;(in&nbsp;this&nbsp;case&nbsp;the&nbsp;MODELVIEW&nbsp;matrix)<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.glPopMatrix();<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Demonstrate&nbsp;drawing&nbsp;text&nbsp;to&nbsp;a&nbsp;GDI+&nbsp;Bitmap&nbsp;and&nbsp;then&nbsp;copying&nbsp;to<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;an&nbsp;OpenGL&nbsp;texture.<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DemonstrateDrawingTextToAGDIBitmapAndCopyingToAnOpenGLTexture(csgl12Control,&nbsp;gl);<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Flush&nbsp;all&nbsp;the&nbsp;current&nbsp;rendering&nbsp;and&nbsp;flip&nbsp;the&nbsp;back&nbsp;buffer&nbsp;to&nbsp;the&nbsp;front.<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl.wglSwapBuffers(csgl12Control.GetHDC());<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">public</span>&nbsp;<span style="color: #0000ff;">void</span>&nbsp;DemonstrateDrawingTextToAGDIBitmapAndCopyingToAnOpenGLTexture(CSGL12Control&nbsp;csgl12Control,&nbsp;GL&nbsp;gl)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">bool</span>&nbsp;updateOverlayImage&nbsp;=&nbsp;<span style="color: #0000ff;">false</span>;<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;The&nbsp;following&nbsp;code&nbsp;only&nbsp;enables&nbsp;an&nbsp;update&nbsp;of&nbsp;the&nbsp;Bitmap<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;and&nbsp;OpenGL&nbsp;texture&nbsp;every&nbsp;64&nbsp;frames,&nbsp;thus&nbsp;avoiding&nbsp;the<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;slowdown&nbsp;of&nbsp;performing&nbsp;updates&nbsp;every&nbsp;single&nbsp;frame.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;HOWEVER,&nbsp;updating&nbsp;the&nbsp;Bitmap&nbsp;and&nbsp;OpenGL&nbsp;texture&nbsp;can&nbsp;be<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;done&nbsp;EVERY&nbsp;frame&nbsp;with&nbsp;acceptable&nbsp;speed.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Updates&nbsp;should&nbsp;be&nbsp;limited&nbsp;to&nbsp;once&nbsp;per&nbsp;frame,&nbsp;but&nbsp;the<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;logic&nbsp;to&nbsp;trigger&nbsp;updates&nbsp;can&nbsp;be&nbsp;based&nbsp;on&nbsp;when&nbsp;the&nbsp;relevant<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;text&nbsp;changes.<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;((csgl12Control.GetTotalFramesDrawn()&nbsp;%&nbsp;<span style="color: #801000;">64</span>)&nbsp;==&nbsp;<span style="color: #801000;">0</span>)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;updateOverlayImage&nbsp;=&nbsp;<span style="color: #0000ff;">true</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">bool</span>&nbsp;showOverlayImage&nbsp;=&nbsp;<span style="color: #0000ff;">true</span>;<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">true</span>&nbsp;==&nbsp;updateOverlayImage)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">using</span>&nbsp;(Graphics&nbsp;g&nbsp;=&nbsp;Graphics.FromImage(mHUDBitmap))<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.Clear(<span style="color: #2b91af;">Color</span>.FromArgb(<span style="color: #801000;">0</span>,&nbsp;<span style="color: #2b91af;">Color</span>.White));<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.FillEllipse(mBrush1,&nbsp;<span style="color: #0000ff;">new</span>&nbsp;Rectangle(<span style="color: #801000;">0</span>,&nbsp;<span style="color: #801000;">0</span>,&nbsp;<span style="color: #801000;">256</span>,&nbsp;<span style="color: #801000;">256</span>));<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.FillEllipse(mBrush1,&nbsp;<span style="color: #0000ff;">new</span>&nbsp;Rectangle(<span style="color: #801000;">256</span>,&nbsp;<span style="color: #801000;">256</span>,&nbsp;<span style="color: #801000;">256</span>,&nbsp;<span style="color: #801000;">256</span>));<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PointF&nbsp;center&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;PointF(<span style="color: #801000;">0.5</span>f&nbsp;*&nbsp;(<span style="color: #801000;">256.0</span>f&nbsp;+&nbsp;<span style="color: #801000;">0.0</span>f),&nbsp;<span style="color: #801000;">0.5</span>f&nbsp;*&nbsp;(<span style="color: #801000;">256.0</span>f&nbsp;+&nbsp;<span style="color: #801000;">0.0</span>f));<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PointF&nbsp;displacement&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;PointF();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">double</span>&nbsp;fraction&nbsp;=&nbsp;csgl12Control.GetTotalElapsedTimeSeconds()&nbsp;*&nbsp;<span style="color: #801000;">0.1</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;displacement.X&nbsp;=&nbsp;<span style="color: #801000;">128.0</span>f&nbsp;*&nbsp;(<span style="color: #0000ff;">float</span>)<span style="color: #2b91af;">Math</span>.Cos(<span style="color: #801000;">2.0</span>&nbsp;*&nbsp;<span style="color: #2b91af;">Math</span>.PI&nbsp;*&nbsp;fraction);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;displacement.Y&nbsp;=&nbsp;<span style="color: #801000;">128.0</span>f&nbsp;*&nbsp;(<span style="color: #0000ff;">float</span>)<span style="color: #2b91af;">Math</span>.Sin(<span style="color: #801000;">2.0</span>&nbsp;*&nbsp;<span style="color: #2b91af;">Math</span>.PI&nbsp;*&nbsp;fraction);<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.DrawLine(mPen1,&nbsp;center,&nbsp;<span style="color: #0000ff;">new</span>&nbsp;PointF(center.X&nbsp;+&nbsp;displacement.X,&nbsp;center.Y&nbsp;+&nbsp;displacement.Y));<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PointF&nbsp;carat&nbsp;=&nbsp;<span style="color: #0000ff;">new</span>&nbsp;PointF(<span style="color: #801000;">0.0</span>f,&nbsp;<span style="color: #801000;">0.0</span>f);<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #2b91af;">String</span>&nbsp;text&nbsp;=&nbsp;&quot;&quot;;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;=&nbsp;&quot;C#&nbsp;OpenGL&nbsp;(CSGL)&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.DrawString(text,&nbsp;mFont1,&nbsp;Brushes.Black,&nbsp;carat);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carat.Y&nbsp;+=&nbsp;mFont1.GetHeight();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;=&nbsp;&quot;Здравствуйте&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.DrawString(text,&nbsp;mFont2,&nbsp;Brushes.Black,&nbsp;carat);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carat.Y&nbsp;+=&nbsp;mFont2.GetHeight();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;=&nbsp;&quot;γεια&nbsp;σου&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.DrawString(text,&nbsp;mFont2,&nbsp;Brushes.Black,&nbsp;carat);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carat.Y&nbsp;+=&nbsp;mFont2.GetHeight();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;=&nbsp;&quot;مرحبا&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.DrawString(text,&nbsp;mFont2,&nbsp;Brushes.Black,&nbsp;carat);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carat.Y&nbsp;+=&nbsp;mFont2.GetHeight();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;=&nbsp;&quot;שלום&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.DrawString(text,&nbsp;mFont2,&nbsp;Brushes.Black,&nbsp;carat);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carat.Y&nbsp;+=&nbsp;mFont2.GetHeight();<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carat.Y&nbsp;+=&nbsp;<span style="color: #801000;">64.0</span>f;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;=&nbsp;&quot;Shift&nbsp;+&nbsp;<span style="color: #801000;">0</span>:&nbsp;Save&nbsp;BMP,PNG,JPG,GIF&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.DrawString(text,&nbsp;mFont4,&nbsp;Brushes.Black,&nbsp;carat);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carat.Y&nbsp;+=&nbsp;mFont4.GetHeight();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;=&nbsp;&quot;<span style="color: #801000;">1</span>,<span style="color: #801000;">2</span>,<span style="color: #801000;">3</span>,<span style="color: #801000;">4</span>&nbsp;&nbsp;:&nbsp;Switch&nbsp;shader&nbsp;program&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.DrawString(text,&nbsp;mFont4,&nbsp;Brushes.Black,&nbsp;carat);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carat.Y&nbsp;+=&nbsp;mFont4.GetHeight();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carat.Y&nbsp;+=&nbsp;<span style="color: #801000;">12.0</span>f;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;=&nbsp;&quot;Text&nbsp;:&nbsp;GDI+&nbsp;on&nbsp;<span style="color: #801000;">512</span>*<span style="color: #801000;">512</span>&nbsp;<span style="color: #2b91af;">Bitmap</span>.&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.DrawString(text,&nbsp;mFont4,&nbsp;Brushes.Black,&nbsp;carat);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carat.Y&nbsp;+=&nbsp;mFont4.GetHeight();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;=&nbsp;&quot;<span style="color: #2b91af;">Bitmap</span>&nbsp;copied&nbsp;to&nbsp;OpenGL&nbsp;texture.&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.DrawString(text,&nbsp;mFont4,&nbsp;Brushes.Black,&nbsp;carat);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carat.Y&nbsp;+=&nbsp;mFont4.GetHeight();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;=&nbsp;&quot;Texture&nbsp;update&nbsp;once&nbsp;per&nbsp;<span style="color: #801000;">64</span>&nbsp;frames,&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.DrawString(text,&nbsp;mFont4,&nbsp;Brushes.Black,&nbsp;carat);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carat.Y&nbsp;+=&nbsp;mFont4.GetHeight();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;=&nbsp;&quot;but&nbsp;more&nbsp;often&nbsp;would&nbsp;be&nbsp;OK.&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.DrawString(text,&nbsp;<span style="color: #0000ff;">this</span>.mFont4,&nbsp;Brushes.Black,&nbsp;carat);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carat.Y&nbsp;+=&nbsp;<span style="color: #0000ff;">this</span>.mFont4.GetHeight();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carat.Y&nbsp;+=&nbsp;<span style="color: #801000;">12.0</span>f;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;=&nbsp;<span style="color: #2b91af;">String</span>.Format(&quot;Frame:{<span style="color: #801000;">0</span>}&quot;,&nbsp;csgl12Control.GetTotalFramesDrawn());<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;+=&nbsp;&quot;&nbsp;&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;+=&nbsp;<span style="color: #2b91af;">String</span>.Format(&quot;Time:{<span style="color: #801000;">0</span>:f2}&quot;,&nbsp;csgl12Control.GetTotalElapsedTimeSeconds());<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">double</span>&nbsp;previousFrameDurationSeconds&nbsp;=<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;csgl12Control.GetPreviousFrameDurationSeconds();<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(previousFrameDurationSeconds&nbsp;&gt;&nbsp;<span style="color: #801000;">1.0e-10</span>)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">double</span>&nbsp;framesPerSecondOverall&nbsp;=<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #801000;">1.0</span>&nbsp;/&nbsp;previousFrameDurationSeconds;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;+=&nbsp;&quot;&nbsp;&quot;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;+=&nbsp;<span style="color: #2b91af;">String</span>.Format(&quot;FPS:{<span style="color: #801000;">0</span>:f2}&quot;,&nbsp;framesPerSecondOverall&nbsp;);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g.DrawString(text,&nbsp;mFont3,&nbsp;Brushes.Black,&nbsp;carat);<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carat.Y&nbsp;+=&nbsp;mFont3.GetHeight();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mHUDTexture.UpdateTextureWithBitmapData(gl,&nbsp;mHUDBitmap);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">true</span>&nbsp;==&nbsp;showOverlayImage)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSGL12Support.SupportDrawTextureImageUnrotatedAndOrthographically<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gl,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;csgl12Control.ClientSize.Width,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;csgl12Control.ClientSize.Height,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mHUDTexture,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #801000;">0</span>,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #801000;">0</span>,&nbsp;<span style="color: #008000;">//&nbsp;i.e.,&nbsp;0&nbsp;==&nbsp;draw&nbsp;TOP&nbsp;of&nbsp;image&nbsp;at&nbsp;TOP&nbsp;of&nbsp;viewport,&nbsp;Y-axis&nbsp;points&nbsp;DOWN<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mHUDTexture.GetWidth(),&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;glControl.ClientSize.Width,&nbsp;//&nbsp;mHUDTexture.GetWidth(),<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mHUDTexture.GetHeight()&nbsp;<span style="color: #008000;">//&nbsp;glControl.ClientSize.Height&nbsp;//&nbsp;mHUDTexture.GetHeight()<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">public</span>&nbsp;<span style="color: #0000ff;">void</span>&nbsp;KeyDown(<span style="color: #0000ff;">object</span>&nbsp;sender,&nbsp;KeyEventArgs&nbsp;e)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">null</span>&nbsp;==&nbsp;sender)&nbsp;{&nbsp;<span style="color: #0000ff;">return</span>;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">false</span>&nbsp;==&nbsp;(sender&nbsp;<span style="color: #0000ff;">is</span>&nbsp;CSGL12Control))&nbsp;{&nbsp;<span style="color: #0000ff;">return</span>;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSGL12Control&nbsp;csgl12Control&nbsp;=&nbsp;(sender&nbsp;<span style="color: #0000ff;">as</span>&nbsp;CSGL12Control);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GL&nbsp;gl&nbsp;=&nbsp;csgl12Control.GetGL();<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(e.KeyCode&nbsp;==&nbsp;Keys.A)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(e.KeyCode&nbsp;==&nbsp;Keys.Z)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(e.KeyCode&nbsp;==&nbsp;Keys.D1)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mShaderProgramSelected&nbsp;=&nbsp;mShaderProgram1;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(e.KeyCode&nbsp;==&nbsp;Keys.D2)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mShaderProgramSelected&nbsp;=&nbsp;mShaderProgram2;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(e.KeyCode&nbsp;==&nbsp;Keys.D3)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mShaderProgramSelected&nbsp;=&nbsp;mShaderProgram3;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(e.KeyCode&nbsp;==&nbsp;Keys.D4)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mShaderProgramSelected&nbsp;=&nbsp;mShaderProgram4;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;NOTE:&nbsp;The&nbsp;only&nbsp;way&nbsp;for&nbsp;cursor&nbsp;key&nbsp;events&nbsp;(up,down,left,right)<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;to&nbsp;make&nbsp;it&nbsp;to&nbsp;this&nbsp;function&nbsp;is&nbsp;for&nbsp;the&nbsp;main&nbsp;form&nbsp;to&nbsp;implement<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;the&nbsp;following:<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;&nbsp;&nbsp;protected&nbsp;override&nbsp;bool&nbsp;ProcessDialogKey&nbsp;(&nbsp;Keys&nbsp;keyData&nbsp;)<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;and&nbsp;explicitly&nbsp;invoke&nbsp;this&nbsp;KeyDown()&nbsp;method&nbsp;with&nbsp;the<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;an&nbsp;appropriately&nbsp;formed&nbsp;KeyEventArgs&nbsp;instance.<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(e.KeyCode&nbsp;==&nbsp;Keys.Up)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewDistance&nbsp;-=&nbsp;<span style="color: #801000;">10.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(e.KeyCode&nbsp;==&nbsp;Keys.Down)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewDistance&nbsp;+=&nbsp;<span style="color: #801000;">10.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(e.KeyCode&nbsp;==&nbsp;Keys.Left)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAzimuthDegrees&nbsp;+=&nbsp;<span style="color: #801000;">1.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(e.KeyCode&nbsp;==&nbsp;Keys.Right)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAzimuthDegrees&nbsp;-=&nbsp;<span style="color: #801000;">1.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Save&nbsp;an&nbsp;image&nbsp;of&nbsp;the&nbsp;viewport&nbsp;(press&nbsp;Shift-0&nbsp;(zero)).&nbsp;&nbsp;The&nbsp;following<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;code&nbsp;writes&nbsp;out&nbsp;the&nbsp;viewport&nbsp;in&nbsp;the&nbsp;following&nbsp;image&nbsp;formats:&nbsp;BMP,&nbsp;PNG,&nbsp;GIF,&nbsp;JPG.<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;If&nbsp;you&nbsp;only&nbsp;want&nbsp;a&nbsp;single&nbsp;format,&nbsp;comment&nbsp;out&nbsp;the&nbsp;other&nbsp;file&nbsp;write&nbsp;commands.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;BMP&nbsp;has&nbsp;no&nbsp;compression&nbsp;artifacts,&nbsp;but&nbsp;the&nbsp;file&nbsp;can&nbsp;be&nbsp;quite&nbsp;large.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;PNG&nbsp;looks&nbsp;good,&nbsp;and&nbsp;supports&nbsp;8-bit&nbsp;transparancy&nbsp;(good&nbsp;for&nbsp;textures,&nbsp;etc).<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;GIF&nbsp;looks&nbsp;bad&nbsp;unless&nbsp;you&nbsp;build&nbsp;the&nbsp;color&nbsp;table&nbsp;intelligently&nbsp;(there&nbsp;is&nbsp;a<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;&nbsp;&nbsp;&nbsp;neural&nbsp;network&nbsp;color&nbsp;table&nbsp;builder&nbsp;for&nbsp;GIF,&nbsp;in&nbsp;C#/.NET,&nbsp;that&nbsp;you&nbsp;can<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;&nbsp;&nbsp;&nbsp;find&nbsp;on&nbsp;the&nbsp;Internet;&nbsp;perhaps&nbsp;Paint.NET&nbsp;uses&nbsp;that&nbsp;code);&nbsp;but&nbsp;GIF&nbsp;files<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;&nbsp;&nbsp;&nbsp;can&nbsp;be&nbsp;quite&nbsp;small,&nbsp;and&nbsp;supports&nbsp;animation.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;JPG&nbsp;looks&nbsp;good&nbsp;under&nbsp;most&nbsp;circumstances,&nbsp;and&nbsp;the&nbsp;file&nbsp;size&nbsp;can&nbsp;be&nbsp;quite&nbsp;small,<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;&nbsp;&nbsp;&nbsp;but&nbsp;transparency&nbsp;is&nbsp;not&nbsp;supported.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;So,&nbsp;for&nbsp;pixel-perfect&nbsp;images,&nbsp;where&nbsp;file&nbsp;size&nbsp;is&nbsp;not&nbsp;important,&nbsp;BMP&nbsp;might&nbsp;be&nbsp;appropriate.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;For&nbsp;textures&nbsp;with&nbsp;transparency,&nbsp;PNG&nbsp;might&nbsp;be&nbsp;appropriate.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;For&nbsp;good-looking&nbsp;images,&nbsp;and&nbsp;small&nbsp;file&nbsp;size,&nbsp;and&nbsp;use&nbsp;in&nbsp;Web&nbsp;pages,&nbsp;JPG&nbsp;might&nbsp;be&nbsp;appropriate.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;For&nbsp;some&nbsp;purposes,&nbsp;with&nbsp;small&nbsp;file&nbsp;sizes,&nbsp;and&nbsp;use&nbsp;in&nbsp;Web&nbsp;pages,&nbsp;GIF&nbsp;might&nbsp;be&nbsp;appropriate.<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;((e.KeyCode&nbsp;==&nbsp;Keys.D0)&nbsp;&amp;&amp;&nbsp;(e.Shift&nbsp;==&nbsp;<span style="color: #0000ff;">true</span>))<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #2b91af;">DateTime</span>&nbsp;now&nbsp;=&nbsp;<span style="color: #2b91af;">DateTime</span>.Now;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #2b91af;">String</span>&nbsp;dateTimeString&nbsp;=&nbsp;<span style="color: #2b91af;">String</span>.Format(&quot;{<span style="color: #801000;">0</span>:d4}{<span style="color: #801000;">1</span>:d2}{<span style="color: #801000;">2</span>:d2}{<span style="color: #801000;">3</span>:d2}{<span style="color: #801000;">4</span>:d2}{<span style="color: #801000;">5</span>:d2}{<span style="color: #801000;">6</span>:d3}&quot;,&nbsp;now.Year,&nbsp;now.Month,&nbsp;now.Day,&nbsp;now.Hour,&nbsp;now.Minute,&nbsp;now.Second,&nbsp;now.Millisecond);<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #2b91af;">String</span>&nbsp;frameIndexString&nbsp;=&nbsp;<span style="color: #2b91af;">String</span>.Format(&quot;{<span style="color: #801000;">0</span>:d6}&quot;,&nbsp;csgl12Control.GetTotalFramesDrawn());<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #2b91af;">String</span>&nbsp;fileNameWithoutExtension&nbsp;=&nbsp;&quot;screen&quot;&nbsp;+&nbsp;&quot;_&quot;&nbsp;+&nbsp;dateTimeString&nbsp;+&nbsp;&quot;_&quot;&nbsp;+&nbsp;frameIndexString;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSGL12Support.SupportWriteViewportToImageFile(gl,&nbsp;fileNameWithoutExtension&nbsp;+&nbsp;&quot;.bmp&quot;,&nbsp;System.Drawing.Imaging.ImageFormat.Bmp);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSGL12Support.SupportWriteViewportToImageFile(gl,&nbsp;fileNameWithoutExtension&nbsp;+&nbsp;&quot;.png&quot;,&nbsp;System.Drawing.Imaging.ImageFormat.Png);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSGL12Support.SupportWriteViewportToImageFile(gl,&nbsp;fileNameWithoutExtension&nbsp;+&nbsp;&quot;.gif&quot;,&nbsp;System.Drawing.Imaging.ImageFormat.Gif);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSGL12Support.SupportWriteViewportToImageFile(gl,&nbsp;fileNameWithoutExtension&nbsp;+&nbsp;&quot;.jpg&quot;,&nbsp;System.Drawing.Imaging.ImageFormat.Jpeg);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">public</span>&nbsp;<span style="color: #0000ff;">void</span>&nbsp;KeyUp(<span style="color: #0000ff;">object</span>&nbsp;sender,&nbsp;KeyEventArgs&nbsp;e)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">public</span>&nbsp;<span style="color: #0000ff;">void</span>&nbsp;MouseDown(<span style="color: #0000ff;">object</span>&nbsp;sender,&nbsp;MouseEventArgs&nbsp;e)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">null</span>&nbsp;==&nbsp;sender)&nbsp;{&nbsp;<span style="color: #0000ff;">return</span>;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">false</span>&nbsp;==&nbsp;(sender&nbsp;<span style="color: #0000ff;">is</span>&nbsp;CSGL12Control))&nbsp;{&nbsp;<span style="color: #0000ff;">return</span>;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSGL12Control&nbsp;csgl12Control&nbsp;=&nbsp;(sender&nbsp;<span style="color: #0000ff;">as</span>&nbsp;CSGL12Control);<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mMouseClientPositionStart&nbsp;=&nbsp;csgl12Control.PointToClient(Cursor.Position);<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAzimuthDegreesStart&nbsp;=&nbsp;mViewAzimuthDegrees;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAltitudeDegreesStart&nbsp;=&nbsp;mViewAltitudeDegrees;<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;((e.Button&nbsp;&amp;&nbsp;MouseButtons.Left)&nbsp;==&nbsp;MouseButtons.Left)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAzimuthDegreesVelocity&nbsp;=&nbsp;<span style="color: #801000;">0.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAltitudeDegreesVelocity&nbsp;=&nbsp;<span style="color: #801000;">0.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;((e.Button&nbsp;&amp;&nbsp;MouseButtons.Right)&nbsp;==&nbsp;MouseButtons.Right)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAzimuthDegreesVelocity&nbsp;=&nbsp;<span style="color: #801000;">9.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAltitudeDegreesVelocity&nbsp;=&nbsp;<span style="color: #801000;">5.0</span>;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">public</span>&nbsp;<span style="color: #0000ff;">void</span>&nbsp;MouseUp(<span style="color: #0000ff;">object</span>&nbsp;sender,&nbsp;MouseEventArgs&nbsp;e)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;((e.Button&nbsp;&amp;&nbsp;MouseButtons.Right)&nbsp;==&nbsp;MouseButtons.Right)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">public</span>&nbsp;<span style="color: #0000ff;">void</span>&nbsp;MouseMove(<span style="color: #0000ff;">object</span>&nbsp;sender,&nbsp;MouseEventArgs&nbsp;e)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">null</span>&nbsp;==&nbsp;sender)&nbsp;{&nbsp;<span style="color: #0000ff;">return</span>;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">false</span>&nbsp;==&nbsp;(sender&nbsp;<span style="color: #0000ff;">is</span>&nbsp;CSGL12Control))&nbsp;{&nbsp;<span style="color: #0000ff;">return</span>;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSGL12Control&nbsp;csgl12Control&nbsp;=&nbsp;(sender&nbsp;<span style="color: #0000ff;">as</span>&nbsp;CSGL12Control);<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Point&nbsp;mouseClientPositionCurrent&nbsp;=&nbsp;csgl12Control.PointToClient(Cursor.Position);<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;((e.Button&nbsp;&amp;&nbsp;MouseButtons.Left)&nbsp;==&nbsp;MouseButtons.Left)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">double</span>&nbsp;azimuth&nbsp;=<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAzimuthDegreesStart<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(<span style="color: #801000;">360.0</span>&nbsp;/&nbsp;(<span style="color: #0000ff;">double</span>)(csgl12Control.Width&nbsp;+&nbsp;<span style="color: #801000;">1</span>))<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;(<span style="color: #0000ff;">double</span>)(mouseClientPositionCurrent.X&nbsp;-&nbsp;mMouseClientPositionStart.X);<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">double</span>&nbsp;altitude&nbsp;=<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAltitudeDegreesStart<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&nbsp;(<span style="color: #801000;">180.0</span>&nbsp;/&nbsp;(<span style="color: #0000ff;">double</span>)(csgl12Control.Height&nbsp;+&nbsp;<span style="color: #801000;">1</span>))<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;(<span style="color: #0000ff;">double</span>)(mouseClientPositionCurrent.Y&nbsp;-&nbsp;mMouseClientPositionStart.Y);<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">double</span>&nbsp;epsilon&nbsp;=&nbsp;<span style="color: #801000;">0.05</span>;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(azimuth&nbsp;&lt;&nbsp;(<span style="color: #801000;">-180</span>&nbsp;+&nbsp;epsilon))&nbsp;{&nbsp;azimuth&nbsp;=&nbsp;(<span style="color: #801000;">-180</span>&nbsp;+&nbsp;epsilon);&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(azimuth&nbsp;&gt;&nbsp;(<span style="color: #801000;">180</span>&nbsp;-&nbsp;epsilon))&nbsp;{&nbsp;azimuth&nbsp;=&nbsp;(<span style="color: #801000;">180</span>&nbsp;-&nbsp;epsilon);&nbsp;}<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(altitude&nbsp;&lt;&nbsp;(<span style="color: #801000;">-90</span>&nbsp;+&nbsp;epsilon))&nbsp;{&nbsp;altitude&nbsp;=&nbsp;(<span style="color: #801000;">-90</span>&nbsp;+&nbsp;epsilon);&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">if</span>&nbsp;(altitude&nbsp;&gt;&nbsp;(<span style="color: #801000;">90</span>&nbsp;-&nbsp;epsilon))&nbsp;{&nbsp;altitude&nbsp;=&nbsp;(<span style="color: #801000;">90</span>&nbsp;-&nbsp;epsilon);&nbsp;}<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAzimuthDegrees&nbsp;=&nbsp;azimuth;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewAltitudeDegrees&nbsp;=&nbsp;altitude;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">public</span>&nbsp;<span style="color: #0000ff;">void</span>&nbsp;MouseWheel(<span style="color: #0000ff;">object</span>&nbsp;sender,&nbsp;MouseEventArgs&nbsp;e)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mViewDistance&nbsp;-=&nbsp;<span style="color: #801000;">0.1</span>&nbsp;*&nbsp;(<span style="color: #0000ff;">double</span>)e.Delta;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+<br />
+<br />
+<br />
+<br />
+}</div>
+
+
+<div style="height: 16px; "></div><div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+请注意，该功能是用来命名“OpenGLStarted”在这个例子中，创造“pixel shader programs”和OpenGL纹理。&nbsp; 针对此计划，我们只需要创建这些资源的一次，这是更有效地创造他们只有一次。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+请注意，该功能的代码名为“OpenGLStarted”检查如果WGL “extension”功能命名“wglSwapIntervalEXT()”存在，如果该函数不存在，该代码调用该函数。&nbsp; 该函数设置一个国家，影响到的运作程序在整个会议期间，所以我们只需要调用该函数一次，这就是为什么我们试图调用功能的“OpenGLStarted”功能（这本身就是一次只能援引时的OpenGL开始为特定的“CSGL12Control” ，假设我们添加了“OpenGLStarted”方法，适当的活动代表） 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+函数命名“Paint”包含的所有代码提请单一“框架”的动画使用OpenGL 。&nbsp; 该“Paint”功能将被称为也许60次每秒，这是由于相关的“CSGL12Control”例如正在“无效” （被迫动用本身再次）在这个速度。&nbsp; （看看“Form”代码示例在上一节看到计时器决定“无效”的速度和实际函数调用，从而导致个体“CSGL12Control”成为“无效” 。 ）&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+所有OpenGL职能是援引使用的一个实例“class GL” （例如： gl.gl*() ） 。&nbsp; 实例“class GL”是获得实例“CSGL12Control” ，这是含蓄地存放在第一个参数的“Paint”功能。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+所有OpenGL常数可以指定指定“class”名称“GL”随后点和名称不变，即“GL.GL_TRIANGLES” 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该OpenGL代码在这个例子中并不完全明显，易于理解，但希望您能认识到的代码可以修改为自己的目的。</div>
+
+
+
+
+<div style="height: 96px;"></div>
+
+
+<h1 style="display: block; background-color: #ffffff; ">12. 检查是否有“延长”作用OpenGL</h1>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+只要勾选如果布尔国旗的相同名称的OpenGL功能是“真的” ，再尝试使用相应的功能。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+布尔变量有一个名字，首先“b”其次是OpenGL函数名称。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="background-color: #ffffff; font-family: 'Courier New',courier,monospace,arial,helvetica,sans-serif; white-space: nowrap; padding-left: 64px; padding-right: 0px; padding-top: 32px; padding-bottom: 32px; border-width: 1px; border-color: #000000; border-style: solid; ">
+<span style="color: #0000ff;">if</span>&nbsp;(<span style="color: #0000ff;">true</span>&nbsp;==&nbsp;gl.bglCreateProgramObjectARB)<br />
+{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;glCreateProgramObjectARB()&nbsp;exists&nbsp;and&nbsp;can&nbsp;be&nbsp;invoked.<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;Also,&nbsp;because&nbsp;that&nbsp;function&nbsp;is&nbsp;related&nbsp;to&nbsp;pixel&nbsp;shaders,&nbsp;it&nbsp;is&nbsp;very<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;likely&nbsp;that&nbsp;other&nbsp;functions&nbsp;that&nbsp;are&nbsp;required&nbsp;for&nbsp;the&nbsp;use&nbsp;of&nbsp;pixel<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;shaders&nbsp;also&nbsp;exist&nbsp;and&nbsp;can&nbsp;be&nbsp;invoked.<br /></span>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">//&nbsp;.&nbsp;.&nbsp;.<br /></span>
+}</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+检查只需要“扩展”功能。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+OpenGL 1.1职能，以及所有GLU职能，核心WGL功能，并不需要这样的检查。&nbsp; 然而，布尔国旗是存在的，并且设置适当的，所有这些功能提供了“class GL” ，包括核心OpenGL 1.1职能。&nbsp; 因此，一致的方式来检查是否所有职能类别。&nbsp; </div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+了解是否有功能的“延伸”的责任是程序员。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+不过，函数名称后缀，如“EXT” ， “ARB” ， “MESA” ， “NV” (NVidia) ， “APPLE”等，有助于说明延期的职能。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+如果一个函数“<b>gl*()</b>”有一个邻国的功能“<b>gl*ARB()</b>”或“<b>gl*NV()</b>” ，然后功能<b>gl*()</b>可能是延长（据该Windows OPENGL32.DLL而言） 。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+唯一的优势，不知或没有的功能是一个“扩展” （与尊重向Windows OPENGL32.DLL ）是能够避免检查，如果职能是提供。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+您可以搜索所有OpenGL职能，用在您的代码，然后建立一个按字母顺序排列的名单不同的职能。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+然后，在您的程序开始后， CSGL12Control调用OpenGLStarted代表，只要勾选所有布尔国旗的所有功能您打算使用。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+如果您选择终止该程序，如果任何“所需的”职能是失踪的，那么所有的检查等功能，在代码可以被淘汰。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+另外，您也可以组成一个小组的非基本职能，在检查，并在可能的告知用户，任何功能的变化，并在可能的离开检查分散在代码中。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+更多OpenGL的经验，您可以得到什么样的意识，扩展相关的（例如：影像处理系统，着色器，缓冲器，压缩， ...).</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+因此，您可以检查存在一个单一的重要功能和使用该信息，以决定是否整个子很可能出席。</div>
+
+
+
+
+<div style="height: 96px;"></div>
+
+
+<h1 style="display: block; background-color: #ffffff; ">13. 速度</h1>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+由于种种原因， C#是慢non-CLR C/C++ 。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+C#最终编译到本地汇编语言，就如同为C/C++ ，但是，由于保证所作的C#语言和.NET CLR ，整体速度的软件基础C#和.NET有点慢于软件采用non-CLR C/C++ 。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+因此，获得最高速度可能的手段使用non-CLR C/C++不是C# 。</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+此外，由于要求任何本土图书馆从C#涉及P/Invoke ，引用功能，例如作为OpenGL职能，将需要一些时间执行工作中的P/Invoke层。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+尽管如此， “CSGL12”似乎工作不够迅速，可用于许多实时图形化的目的，如简单的游戏，三维浏览，编辑，或三维演示。&nbsp; 尤其是如果大部分工作是由GPU不是CPU 。</div>
+
+
+
+
+<div style="height: 96px;"></div>
+
+
+<h1 style="display: block; background-color: #ffffff; ">14. 比较“CSGL12”和“Tao Framework”</h1>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该“Tao Framework”是一家大型C# / .NET库，提供了一个界面，许多开放源代码库，如OpenGL ， OpenAL （音频） ， SDL （游戏/仿真平台） ， Open Dynamics Engine (ODE) （物理）等</div>
+
+
+
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该Tao Framework是跨平台的(Windows, Linux, Mac OS X) 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+“CSGL12”只提供一个接口， OpenGL ，并只用于Windows操作系统。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+该Tao Framework有一个社区。&nbsp; 一个人可以从中受益，与用户沟通的Tao Framework 。</div>
+
+
+<div style="height: 16px; "></div>
+
+<div style="display: inline; background-color: #ffffff; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-color: #000000; ">
+然而，可能有许多用途的“CSGL12”可能更容易使用的Windows程序。&nbsp; </div>
+
+
+<div style="height: 96px;"></div>
+
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+<div><a style="font-family: arial,helvetica,sans-serif; font-size: 22px;" href="http://colinfahey.com/index_zh_cn.html">colinfahey.com</a></div>
+
+
+<div style="height: 8px;"></div>
+
+
+<div><a style="font-family: arial,helvetica,sans-serif; font-weight: normal; font-size: 13px;" href="http://colinfahey.com/contact/contact_zh_cn.php">联系信息</a></div>
+
+
+<div style="height: 32px;"></div>
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+<div style="height: 48px;"></div>
+
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+<div>
+<a href="csharp_wrapper_for_opengl_en.html">English</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_es.html">Español</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_pt.html">Português</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_fr.html">Français</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_it.html">Italiano</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_de.html">Deutsch</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_nl.html">Nederlands</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_sv.html">Svenska</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_da.html">Dansk</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_fi.html">Suomi</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_no.html">Norsk</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_ru.html">Русский</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_pl.html">Polski</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_ro.html">Română</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_bg.html">Български</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_hr.html">Hrvatski</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_cs.html">Česky</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_zh_cn.html">中国</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_zh_tw.html">中國</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_ja.html">日本語</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_ko.html">한국어</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_el.html">Ελληνική</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_hi.html">हिन्दी</a>&nbsp;
+<a href="csharp_wrapper_for_opengl_ar.html">العربية</a>&nbsp;
+</div>
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+<div style="height: 48px;"></div>
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+</body>
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+
+
+</html>
+
+
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->
+<!-- ###################################################################### -->

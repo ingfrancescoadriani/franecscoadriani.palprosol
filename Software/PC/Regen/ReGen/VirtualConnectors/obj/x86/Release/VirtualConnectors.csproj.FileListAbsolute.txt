@@ -1,0 +1,21 @@
+Z:\Regen\Regen\ReGen\VirtualCOnnectors\bin\x86\Release\VirtualConnectors.dll
+Z:\Regen\Regen\ReGen\VirtualCOnnectors\bin\x86\Release\VirtualConnectors.pdb
+Z:\Regen\Regen\ReGen\VirtualCOnnectors\obj\x86\Release\VirtualConnectors.dll
+Z:\Regen\Regen\ReGen\VirtualCOnnectors\obj\x86\Release\VirtualConnectors.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\bin\x86\Release\VirtualConnectors.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\bin\x86\Release\VirtualConnectors.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\obj\x86\Release\VirtualConnectors.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\VirtualCOnnectors\obj\x86\Release\VirtualConnectors.pdb
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x86\Release\VirtualConnectors.dll
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x86\Release\VirtualConnectors.pdb
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x86\Release\VirtualConnectors.dll
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x86\Release\VirtualConnectors.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x86\Release\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x86\Release\VirtualConnectors.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x86\Release\Sintec.Tool.dll
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\x86\Release\Sintec.Tool.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x86\Release\VirtualConnectors.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x86\Release\VirtualConnectors.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x86\Release\VirtualConnectors.csproj.CopyComplete
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x86\Release\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\x86\Release\VirtualConnectors.pdb

@@ -1,0 +1,91 @@
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\ReGen.exe.config
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\libnodave.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\ReGen.exe
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\lApproachDll.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\PdfSharp.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\S7Connector.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\Sintec.Tool.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\VirtualConnectors.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\XmlConnector.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\Sintec.Tool.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\XmlConnector.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\S7Connector.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\VirtualConnectors.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\lApproachDll.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\PdfSharp.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\PdfSharp.xml
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\de\PdfSharp.resources.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\obj\x86\Release\ReGen.csprojResolveAssemblyReference.cache
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\obj\x86\Release\ReGen.AboutBoxSintec.resources
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\obj\x86\Release\ReGen.Properties.Resources.resources
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\obj\x86\Release\ReGen.View.Licence.resources
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\obj\x86\Release\ReGen.MainForm.resources
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\obj\x86\Release\ReGen.View.toolForm.resources
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\obj\x86\Release\ReGen.csproj.GenerateResource.Cache
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\ReGen\obj\x86\Release\ReGen.exe
+\\legnovo\Sviluppati in Sintec\Regen\Regen\ReGen\bin\Release\ReGen.exe.config
+\\legnovo\Sviluppati in Sintec\Regen\Regen\ReGen\obj\x86\Release\ReGen.exe
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\ReGen.exe.config
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.exe
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\libnodave.dll
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\ReGen.exe
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\lApproachDll.dll
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\PdfSharp.dll
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\S7Connector.dll
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\Sintec.Tool.dll
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\VirtualConnectors.dll
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\XmlConnector.dll
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\Sintec.Tool.pdb
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\XmlConnector.pdb
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\S7Connector.pdb
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\VirtualConnectors.pdb
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\lApproachDll.pdb
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\PdfSharp.pdb
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\PdfSharp.xml
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\de\PdfSharp.resources.dll
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.csprojResolveAssemblyReference.cache
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.AboutBoxSintec.resources
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.Properties.Resources.resources
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.View.Licence.resources
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.MainForm.resources
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.View.toolForm.resources
+C:\Users\Sintec\Sviluppati in Sintec\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.csproj.GenerateResource.Cache
+S:\Progetti\Sviluppati in Sintec\Regen\repo\Regen\ReGen\bin\Release\ReGen.exe.config
+S:\Progetti\Sviluppati in Sintec\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.exe
+Z:\S\Progetti\Regen\repo\Regen\ReGen\bin\Release\ReGen.exe.config
+Z:\S\Progetti\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.exe
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\ReGen.exe.config
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\ReGen.exe
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\it\ReGen.resources.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\lApproachDll.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\PdfSharp.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\Sintec.Tool.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\lApproachDll.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\Sintec.Tool.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\VirtualConnectors.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\PdfSharp.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\PdfSharp.xml
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\de\PdfSharp.resources.dll
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.AboutBoxSintec.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.OpenForm.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.Properties.Resources.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.View.LicenceForm.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.MainForm.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.View.toolForm.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.MainForm.it.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.csproj.GenerateResource.cache
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x86\Release\it\ReGen.resources.dll
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.csproj.CopyComplete
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x86\Release\ReGen.exe
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\snap7.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\S7Connector.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\S7Connector.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\ModBusTCPIPConnector.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\ThreeDConnector.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\XmlConnector.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\ModBusTCPIPConnector.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\ThreeDConnector.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\Release\XmlConnector.pdb

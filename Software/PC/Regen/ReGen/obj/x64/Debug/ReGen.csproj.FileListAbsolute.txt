@@ -1,0 +1,111 @@
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\snap7.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\ReGen.exe.config
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\ReGen.exe
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\ReGen.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\it\ReGen.resources.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\lApproachDll.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\PdfSharp.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\S7Connector.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\Sintec.Tool.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\lApproachDll.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\Sintec.Tool.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\S7Connector.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\VirtualConnectors.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\PdfSharp.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\PdfSharp.xml
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\de\PdfSharp.resources.dll
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.AboutBoxSintec.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.OpenForm.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.Properties.Resources.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.View.LicenceForm.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.MainForm.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.View.toolForm.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.MainForm.it.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.csproj.GenerateResource.cache
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x64\Debug\it\ReGen.resources.dll
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.csproj.CopyComplete
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.exe
+S:\Progetti\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\ModBusTCPIPConnector.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\ThreeDConnector.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\XmlConnector.dll
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\ModBusTCPIPConnector.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\ThreeDConnector.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Debug\XmlConnector.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\snap7.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\ReGen.exe.config
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\ReGen.exe
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\ReGen.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\it\ReGen.resources.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\lApproachDll.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\ModBusTCPIPConnector.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\PdfSharp.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\S7Connector.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\Sintec.Tool.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\ThreeDConnector.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\VirtualConnectors.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\XmlConnector.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\lApproachDll.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\Sintec.Tool.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\ModBusTCPIPConnector.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\S7Connector.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\ThreeDConnector.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\XmlConnector.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\VirtualConnectors.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\PdfSharp.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\PdfSharp.xml
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\bin\x64\Debug\de\PdfSharp.resources.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.csprojAssemblyReference.cache
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.AboutBoxSintec.resources
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.OpenForm.resources
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.Properties.Resources.resources
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.View.LicenceForm.resources
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.MainForm.resources
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.View.toolForm.resources
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.MainForm.it.resources
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.csproj.GenerateResource.cache
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.csproj.CoreCompileInputs.cache
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\obj\x64\Debug\it\ReGen.resources.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.csproj.CopyComplete
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.exe
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ReGen\obj\x64\Debug\ReGen.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\snap7.dll
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\ReGen.exe.config
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\ReGen.exe
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\ReGen.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\it\ReGen.resources.dll
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\lApproachDll.dll
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\ModBusTCPIPConnector.dll
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\PdfSharp.dll
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\S7Connector.dll
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\Sintec.Tool.dll
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\ThreeDConnector.dll
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\VirtualConnectors.dll
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\XmlConnector.dll
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\lApproachDll.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\Sintec.Tool.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\ModBusTCPIPConnector.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\S7Connector.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\ThreeDConnector.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\XmlConnector.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\VirtualConnectors.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\PdfSharp.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\PdfSharp.xml
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\bin\x64\Debug\de\PdfSharp.resources.dll
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\obj\x64\Debug\ReGen.csprojAssemblyReference.cache
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\obj\x64\Debug\ReGen.AboutBoxSintec.resources
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\obj\x64\Debug\ReGen.OpenForm.resources
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\obj\x64\Debug\ReGen.Properties.Resources.resources
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\obj\x64\Debug\ReGen.View.LicenceForm.resources
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\obj\x64\Debug\ReGen.MainForm.resources
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\obj\x64\Debug\ReGen.View.toolForm.resources
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\obj\x64\Debug\ReGen.MainForm.it.resources
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\obj\x64\Debug\ReGen.csproj.GenerateResource.cache
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\obj\x64\Debug\ReGen.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\obj\x64\Debug\it\ReGen.resources.dll
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\obj\x64\Debug\ReGen.csproj.CopyComplete
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\obj\x64\Debug\ReGen.exe
+S:\Progetti\Regen\Software\Pc\Regen\ReGen\obj\x64\Debug\ReGen.pdb

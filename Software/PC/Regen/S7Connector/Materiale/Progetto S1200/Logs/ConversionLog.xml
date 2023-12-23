@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="Progetto2_V13_SP1" typeText="Tipo" messageText="Messaggio" timeText="Ora">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="29/08/2016 11:08:16">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Aggiornamento avviato" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="29/08/2016 11:08:16">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Lettura in corso delle informazioni della versione precedente del progetto/della biblioteca." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="29/08/2016 11:09:43">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Aggiornamento in corso del nuovo progetto/della nuova biblioteca." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="29/08/2016 11:09:59">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Aggiornamento in corso del nuovo progetto/della nuova biblioteca." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="29/08/2016 11:10:03" Debug="false">
+    <Text>La conversione del programma S7 per la CPU "PLC_1" è in preparazione.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="29/08/2016 11:10:15" Debug="false">
+    <Text>Conversione terminata.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="29/08/2016 11:10:17" Debug="false">
+    <Text>Il programma S7 viene convertito per la CPU "PLC_1".</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="29/08/2016 11:10:51" Debug="false">
+    <Text>Conversione terminata.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="29/08/2016 11:11:08">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Aggiornamento in corso del nuovo progetto/della nuova biblioteca." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="29/08/2016 11:11:08">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Salvataggio in corso del progetto aggiornato/della biblioteca aggiornata." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectSucceeded" MessageClass="Success" Timestamp="29/08/2016 11:11:12">
+    <Number ServiceNumber="80" MessageNumber="34" />
+    <Text FeedbackText="Il progetto 'Progetto2' è stato aggiornato e salvato come progetto 'Progetto2_V13_SP1'." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+</LogFile>

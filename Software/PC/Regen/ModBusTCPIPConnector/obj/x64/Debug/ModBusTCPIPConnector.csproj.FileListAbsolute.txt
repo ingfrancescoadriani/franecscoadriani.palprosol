@@ -1,0 +1,48 @@
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\ModBusTCPIPConnector.dll
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\ModBusTCPIPConnector.pdb
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\lApproachDll.dll
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\Sintec.Tool.dll
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\lApproachDll.pdb
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\Sintec.Tool.pdb
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\VirtualConnectors.pdb
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\panelForConnector.resources
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.Properties.Resources.resources
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.csproj.GenerateResource.cache
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.csproj.CopyComplete
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.dll
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\ModBusTCPIPConnector.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\ModBusTCPIPConnector.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\lApproachDll.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\Sintec.Tool.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\VirtualConnectors.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\lApproachDll.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\Sintec.Tool.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Debug\VirtualConnectors.pdb
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.csprojAssemblyReference.cache
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\panelForConnector.resources
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.Properties.Resources.resources
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.csproj.GenerateResource.cache
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.csproj.CoreCompileInputs.cache
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.csproj.CopyComplete
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.dll
+S:\_Pogetti non ancoora GITTATI\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\bin\x64\Debug\ModBusTCPIPConnector.dll
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\bin\x64\Debug\ModBusTCPIPConnector.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\bin\x64\Debug\lApproachDll.dll
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\bin\x64\Debug\Sintec.Tool.dll
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\bin\x64\Debug\VirtualConnectors.dll
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\bin\x64\Debug\lApproachDll.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\bin\x64\Debug\Sintec.Tool.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\bin\x64\Debug\VirtualConnectors.pdb
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.csprojAssemblyReference.cache
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\obj\x64\Debug\panelForConnector.resources
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.Properties.Resources.resources
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.csproj.GenerateResource.cache
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.csproj.CopyComplete
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.dll
+S:\Progetti\Regen\Software\Pc\Regen\ModBusTCPIPConnector\obj\x64\Debug\ModBusTCPIPConnector.pdb

@@ -1,0 +1,13 @@
+S:\Progetti\Regen\repo\Regen\XmlConnector\bin\x64\Release\XmlConnector.dll
+S:\Progetti\Regen\repo\Regen\XmlConnector\bin\x64\Release\XmlConnector.pdb
+S:\Progetti\Regen\repo\Regen\XmlConnector\bin\x64\Release\Sintec.Tool.dll
+S:\Progetti\Regen\repo\Regen\XmlConnector\bin\x64\Release\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\XmlConnector\bin\x64\Release\Sintec.Tool.pdb
+S:\Progetti\Regen\repo\Regen\XmlConnector\bin\x64\Release\VirtualConnectors.pdb
+S:\Progetti\Regen\repo\Regen\XmlConnector\obj\x64\Release\XmlConnector.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\XmlConnector\obj\x64\Release\XmlConnector.InterfacciaImpostazioni.resources
+S:\Progetti\Regen\repo\Regen\XmlConnector\obj\x64\Release\XmlConnector.csproj.GenerateResource.cache
+S:\Progetti\Regen\repo\Regen\XmlConnector\obj\x64\Release\XmlConnector.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\repo\Regen\XmlConnector\obj\x64\Release\XmlConnector.csproj.CopyComplete
+S:\Progetti\Regen\repo\Regen\XmlConnector\obj\x64\Release\XmlConnector.dll
+S:\Progetti\Regen\repo\Regen\XmlConnector\obj\x64\Release\XmlConnector.pdb

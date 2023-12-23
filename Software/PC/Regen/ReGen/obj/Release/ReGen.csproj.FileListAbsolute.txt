@@ -1,0 +1,9 @@
+S:\Progetti\Regen\repo\Regen\ReGen\obj\Release\ReGen.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\ReGen\obj\Release\ReGen.AboutBoxSintec.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\Release\ReGen.OpenForm.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\Release\ReGen.Properties.Resources.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\Release\ReGen.View.Licence.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\Release\ReGen.MainForm.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\Release\ReGen.View.toolForm.resources
+S:\Progetti\Regen\repo\Regen\ReGen\obj\Release\ReGen.csproj.GenerateResource.cache
+S:\Progetti\Regen\repo\Regen\ReGen\obj\Release\ReGen.csproj.CoreCompileInputs.cache

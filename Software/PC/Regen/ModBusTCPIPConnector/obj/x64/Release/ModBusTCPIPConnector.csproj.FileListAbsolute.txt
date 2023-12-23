@@ -1,0 +1,16 @@
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Release\ModBusTCPIPConnector.dll
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Release\ModBusTCPIPConnector.pdb
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Release\lApproachDll.dll
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Release\Sintec.Tool.dll
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Release\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Release\lApproachDll.pdb
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Release\Sintec.Tool.pdb
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Release\VirtualConnectors.pdb
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Release\ModBusTCPIPConnector.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Release\panelForConnector.resources
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Release\ModBusTCPIPConnector.Properties.Resources.resources
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Release\ModBusTCPIPConnector.csproj.GenerateResource.cache
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Release\ModBusTCPIPConnector.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Release\ModBusTCPIPConnector.csproj.CopyComplete
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Release\ModBusTCPIPConnector.dll
+S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\obj\x64\Release\ModBusTCPIPConnector.pdb

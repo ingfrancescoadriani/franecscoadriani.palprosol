@@ -1,0 +1,5 @@
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\Release\ThreeDConnector.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\Release\ThreeDConnectorSpace.InterfacciaImpostazioni.resources
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\Release\ThreeDConnector.Properties.Resources.resources
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\Release\ThreeDConnector.csproj.GenerateResource.cache
+S:\Progetti\Regen\repo\Regen\ThreeDConnector\obj\Release\ThreeDConnector.csproj.CoreCompileInputs.cache

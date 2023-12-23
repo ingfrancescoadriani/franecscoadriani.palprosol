@@ -1,0 +1,43 @@
+<project outputDir="S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Release\Confused" snKey="" xmlns="http://confuser.codeplex.com">
+  <settings name="settings1">
+    <confusion id="anti debug" />
+    <confusion id="anti ildasm" />
+    <confusion id="ctor proxy" />
+    <confusion id="mtd proxy" />
+    <confusion id="rename" />
+    <confusion id="res encrypt" />
+  </settings>
+  <settings name="settings2">
+    <confusion id="anti debug" />
+    <confusion id="anti ildasm" />
+    <confusion id="const encrypt" />
+    <confusion id="ctor proxy" />
+    <confusion id="mtd proxy" />
+    <confusion id="rename" />
+    <confusion id="res encrypt" />
+  </settings>
+  <assembly path="S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Release\ReGen.exe" isMain="true">
+    <config id="settings1" />
+  </assembly>
+  <assembly path="S:\Progetti\Regen\repo\Regen\S7Connector\bin\x64\Release\S7Connector.dll">
+    <config id="settings2" />
+  </assembly>
+  <assembly path="S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Release\Sintec.Tool.dll">
+    <config id="settings2" />
+  </assembly>
+  <assembly path="S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Release\VirtualConnectors.dll">
+    <config id="settings2" />
+  </assembly>
+  <assembly path="S:\Progetti\Regen\repo\Regen\XmlConnector\bin\x64\Release\XmlConnector.dll">
+    <config id="settings2" />
+  </assembly>
+  <assembly path="S:\Progetti\Regen\repo\Regen\ThreeDConnector\bin\x64\Release\ThreeDConnector.dll">
+    <config id="settings2" />
+  </assembly>
+  <assembly path="S:\Progetti\Regen\repo\Regen\ReGen\bin\x64\Release\PdfSharp.dll">
+    <config id="settings2" />
+  </assembly>
+  <assembly path="S:\Progetti\Regen\repo\Regen\ModBusTCPIPConnector\bin\x64\Release\ModBusTCPIPConnector.dll">
+    <config id="settings2" />
+  </assembly>
+</project>

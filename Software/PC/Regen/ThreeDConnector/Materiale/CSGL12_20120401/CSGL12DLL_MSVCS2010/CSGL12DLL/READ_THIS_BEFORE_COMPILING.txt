@@ -1,0 +1,34 @@
+﻿
+
+
+
+The file GL.cs cannot be compiled unless the following definition is at the
+beginning of that file:
+
+    #define ENABLE_GL_CODE
+    
+If that definition is contained within a comment, i.e.,
+
+    //#define ENABLE_GL_CODE
+    
+then you must remove the comment prefix (i.e., "//") to enable that definition.
+
+
+If you are using Microsoft Visual C# 2008/2005/2003, or Microsoft Visual C# 
+2008/2005/2003 Express Edition, or Microsoft Visual Studio 2008/2005/2003, or 
+possibly the 2010 version of one of those editors, then it is likely that 
+your editor will become totally unresponsive for 10 seconds, and then become 
+usable for a few seconds before becoming unresponsive for another 10 seconds,
+repeating that pattern indefinitely -- unless you temporarily disable the 
+definition specified above.  The problem is that IntelliSense is repeatedly 
+analyzing thousands of lines of code that haven't changed, and that, for some
+reason, the code analysis blocks the editor itself from working!  The only 
+practical solution is to simply disable the code while editing, by disabling the 
+definition specified above, and then enable that definition only when ready to 
+compile the code.
+
+If you are not using a Microsoft code editor, then you can enable that 
+definition permanently.
+
+
+

@@ -1,0 +1,17 @@
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\XmlConnector\bin\x64\Debug\XmlConnector.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\XmlConnector\bin\x64\Debug\XmlConnector.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\XmlConnector\bin\x64\Debug\VirtualCOnnectors.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\XmlConnector\bin\x64\Debug\VirtualCOnnectors.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\XmlConnector\obj\x64\Debug\XmlConnector.InterfacciaImpostazioni.resources
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\XmlConnector\obj\x64\Debug\XmlConnector.csproj.GenerateResource.Cache
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\XmlConnector\obj\x64\Debug\XmlConnector.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\XmlConnector\obj\x64\Debug\XmlConnector.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\bin\x64\Debug\XmlConnector.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\bin\x64\Debug\XmlConnector.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\bin\x64\Debug\VirtualConnectors.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\bin\x64\Debug\VirtualConnectors.pdb
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\obj\x64\Debug\XmlConnector.csprojResolveAssemblyReference.cache
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\obj\x64\Debug\XmlConnector.InterfacciaImpostazioni.resources
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\obj\x64\Debug\XmlConnector.csproj.GenerateResource.Cache
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\obj\x64\Debug\XmlConnector.dll
+C:\Users\Sintec\OneDrive\Sviluppati in Sintec\Regen\Regen\XmlConnector\obj\x64\Debug\XmlConnector.pdb

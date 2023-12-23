@@ -1,0 +1,16 @@
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\VirtualCOnnectors\bin\Release\VirtualCOnnectors.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\VirtualCOnnectors\bin\Release\VirtualCOnnectors.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Release\VirtualCOnnectors.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Release\VirtualCOnnectors.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Release\ReGen.Util.FrmTmp.resources
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Release\VirtualConnectors.csproj.GenerateResource.Cache
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\VirtualCOnnectors\obj\Release\VirtualConnectors.csprojResolveAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\Release\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\Release\VirtualConnectors.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\Release\Sintec.Tool.dll
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\bin\Release\Sintec.Tool.pdb
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\Release\VirtualConnectors.csprojAssemblyReference.cache
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\Release\VirtualConnectors.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\Release\VirtualConnectors.csproj.CopyComplete
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\Release\VirtualConnectors.dll
+S:\Progetti\Regen\repo\Regen\ReGen\VirtualCOnnectors\obj\Release\VirtualConnectors.pdb

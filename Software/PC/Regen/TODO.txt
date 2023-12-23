@@ -1,0 +1,35 @@
+le fornirò il software con le modifiche necessarie tali che:
+-si possa impostare la distanza di accostamento a piacere;
+RICONOSCIMENTO PAYLOAD E INSTALLER
+
+
+-si possano salvare nel file i campi utente custom.
+	(extra data del prelievo vicino a tooldata)
+	(other info del disposito)
+doppia antina, pannello o falda
+
+
+
+
+
+	-interfalda pallet
+	-pannello pallet
+	-distanza accostamento a piacere
+	-dati custom
+	-secondo paylad
+dati su xml
+wrapping dei tag per il plugin
+lettura e scrittura del dato dalla grafica
+gestione del doppio payload
+
+
+MANCANO SUL WRAPPER
+<name id="">BoxStrategy</name>
+			<data>[size](600;400;100)</data>
+			<size>
+				<width>600</width>
+				<length>400</length>
+				<height>100</height>
+			</size>
+			<toolData></toolData>
+			<initialCenter>(0; 0)</initialCenter>

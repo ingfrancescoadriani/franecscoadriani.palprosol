@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generatore di codici", "Generatore di codici\Generatore di codici.csproj", "{9044AE82-6359-4A3B-B70D-1A8A8A06D834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sintec.Tool", "..\Sintec.Tool\Sintec.Tool.csproj", "{27F6734F-F19A-4D64-B6FC-A0A4D8ACA5F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9044AE82-6359-4A3B-B70D-1A8A8A06D834}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9044AE82-6359-4A3B-B70D-1A8A8A06D834}.Debug|x64.ActiveCfg = Debug|x86
+		{9044AE82-6359-4A3B-B70D-1A8A8A06D834}.Debug|x86.ActiveCfg = Debug|x86
+		{9044AE82-6359-4A3B-B70D-1A8A8A06D834}.Debug|x86.Build.0 = Debug|x86
+		{9044AE82-6359-4A3B-B70D-1A8A8A06D834}.Release|Any CPU.ActiveCfg = Release|x86
+		{9044AE82-6359-4A3B-B70D-1A8A8A06D834}.Release|x64.ActiveCfg = Release|x86
+		{9044AE82-6359-4A3B-B70D-1A8A8A06D834}.Release|x86.ActiveCfg = Release|x86
+		{9044AE82-6359-4A3B-B70D-1A8A8A06D834}.Release|x86.Build.0 = Release|x86
+		{27F6734F-F19A-4D64-B6FC-A0A4D8ACA5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F6734F-F19A-4D64-B6FC-A0A4D8ACA5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F6734F-F19A-4D64-B6FC-A0A4D8ACA5F9}.Debug|x64.ActiveCfg = Debug|x64
+		{27F6734F-F19A-4D64-B6FC-A0A4D8ACA5F9}.Debug|x64.Build.0 = Debug|x64
+		{27F6734F-F19A-4D64-B6FC-A0A4D8ACA5F9}.Debug|x86.ActiveCfg = Debug|x86
+		{27F6734F-F19A-4D64-B6FC-A0A4D8ACA5F9}.Debug|x86.Build.0 = Debug|x86
+		{27F6734F-F19A-4D64-B6FC-A0A4D8ACA5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F6734F-F19A-4D64-B6FC-A0A4D8ACA5F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F6734F-F19A-4D64-B6FC-A0A4D8ACA5F9}.Release|x64.ActiveCfg = Release|x64
+		{27F6734F-F19A-4D64-B6FC-A0A4D8ACA5F9}.Release|x64.Build.0 = Release|x64
+		{27F6734F-F19A-4D64-B6FC-A0A4D8ACA5F9}.Release|x86.ActiveCfg = Release|x86
+		{27F6734F-F19A-4D64-B6FC-A0A4D8ACA5F9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

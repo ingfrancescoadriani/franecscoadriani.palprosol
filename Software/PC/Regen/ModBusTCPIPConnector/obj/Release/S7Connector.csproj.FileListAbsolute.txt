@@ -1,0 +1,17 @@
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\bin\Release\S7Connector.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\bin\Release\S7Connector.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\bin\Release\VirtualCOnnectors.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\bin\Release\VirtualCOnnectors.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\obj\Release\S7Connector.csprojResolveAssemblyReference.cache
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\obj\Release\panelForConnector.resources
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\obj\Release\S7Connector.csproj.GenerateResource.Cache
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\obj\Release\S7Connector.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\obj\Release\S7Connector.pdb
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\bin\Release\libnodave.net.dll
+C:\Users\Rice Cipriani\Dropbox\Programmi fatti da me\Regen\ReGen - Manuale\S7Connector\obj\Release\S7Connector.Properties.Resources.resources
+S:\Progetti\Regen\repo\Regen\S7Connector\obj\Release\panelForConnector.resources
+S:\Progetti\Regen\repo\Regen\S7Connector\obj\Release\S7Connector.Properties.Resources.resources
+S:\Progetti\Regen\repo\Regen\S7Connector\obj\Release\S7Connector.csproj.GenerateResource.cache
+S:\Progetti\Regen\repo\Regen\S7Connector\obj\Release\S7Connector.csproj.CoreCompileInputs.cache
+S:\Progetti\Regen\repo\Regen\S7Connector\obj\Release\S7Connector.dll
+S:\Progetti\Regen\repo\Regen\S7Connector\obj\Release\S7Connector.pdb
